@@ -1,64 +1,56 @@
 ---
-title: With ToC
+title: Version Control
 weight: 1
 ---
-# Caput vino delphine in tamen vias
+# Version Control
 
-## Cognita laeva illo fracta
+We use git to manage versioning for software development source code.  For repository hosting and user management we use Atlassian Bitbucket.
 
-Lorem markdownum pavent auras, surgit nunc cingentibus libet **Laomedonque que**
-est. Pastor [An](http://est.org/ire.aspx) arbor filia foedat, ne [fugit
-aliter](http://www.indiciumturbam.org/moramquid.php), per. Helicona illas et
-callida neptem est *Oresitrophos* caput, dentibus est venit. Tenet reddite
-[famuli](http://www.antro-et.net/) praesentem fortibus, quaeque vis foret si
-frondes *gelidos* gravidae circumtulit [inpulit armenta
-nativum](http://incurvasustulit.io/illi-virtute.html).
 
-1. Te at cruciabere vides rubentis manebo
-2. Maturuit in praetemptat ruborem ignara postquam habitasse
-3. Subitarum supplevit quoque fontesque venabula spretis modo
-4. Montis tot est mali quasque gravis
-5. Quinquennem domus arsit ipse
-6. Pellem turis pugnabant locavit
+## Branching Strategies
 
-## Natus quaerere
+Every service will follow one of the following branching strategies:
 
-Pectora et sine mulcere, coniuge dum tincta incurvae. Quis iam; est dextra
-Peneosque, metuis a verba, primo. Illa sed colloque suis: magno: gramen, aera
-excutiunt concipit.
+* Feature Branch + Pull Request
+* Production Branches
 
-> Phrygiae petendo suisque extimuit, super, pars quod audet! Turba negarem.
-> Fuerat attonitus; et dextra retinet sidera ulnas undas instimulat vacuae
-> generis? *Agnus* dabat et ignotis dextera, sic tibi pacis **feriente at mora**
-> euhoeque *comites hostem* vestras Phineus. Vultuque sanguine dominoque [metuit
-> risi](http://iuvat.org/eundem.php) fama vergit summaque meus clarissimus
-> artesque tinguebat successor nominis cervice caelicolae.
+These are described below.
 
-## Limitibus misere sit
+### Feature Branch + Pull Request
 
-Aurea non fata repertis praerupit feruntur simul, meae hosti lentaque *citius
-levibus*, cum sede dixit, Phaethon texta. *Albentibus summos* multifidasque
-iungitur loquendi an pectore, mihi ursaque omnia adfata, aeno parvumque in animi
-perlucentes. Epytus agis ait vixque clamat ornum adversam spondet, quid sceptra
-ipsum **est**. Reseret nec; saeva suo passu debentia linguam terga et aures et
-cervix [de](http://www.amnem.io/pervenit.aspx) ubera. Coercet gelidumque manus,
-doluit volvitur induta?
+This branching strategy uses a combination of feature branches with pull requests.
 
-## Enim sua
+![Feature Branch Strategy](/images/feature-branch-pr-strategy.png)
 
-Iuvenilior filia inlustre templa quidem herbis permittat trahens huic. In
-cruribus proceres sole crescitque *fata*, quos quos; merui maris se non tamen
-in, mea.
+* Master branch is protected
+* Pull requests must be approved before merge to master.
+* We use pull requests to enforce and document our code review process.  You can read more about it here: Code Review Process
+* Pull request merges will create merge or squash commits. (no fast-forward)
+* For repositories that contain production code, we will utilize a production tracking branch, which is updated by the deployment pipeline stage with ff-only merges.
 
-## Germana aves pignus tecta
+On deployment to production, we update the production branch to point to the related commit.  This enables development team to have visibility on production from git. The merge looks like this:
 
-Mortalia rudibusque caelum cognosceret tantum aquis redito felicior texit, nec,
-aris parvo acre. Me parum contulerant multi tenentem, gratissime suis; vultum tu
-occupat deficeret corpora, sonum. E Actaea inplevit Phinea concepit nomenque
-potest sanguine captam nulla et, in duxisses campis non; mercede. Dicere cur
-Leucothoen obitum?
+![Feature Branch Strategy](/images/production-tracking-branch.png)
 
-Postibus mittam est *nubibus principium pluma*, exsecratur facta et. Iunge
-Mnemonidas pallamque pars; vere restitit alis flumina quae **quoque**, est
-ignara infestus Pyrrha. Di ducis terris maculatum At sede praemia manes
-nullaque!
+Merges to master should either be merge commits or squash commits... i.e. no fast-forward merges.  This allows us to atomically back out merges should we need to.
+
+
+### Production Deployment Branch
+
+The Production Deployment branch is an alternative to the feature-branch/pull-request strategy.
+
+This allows a model similar to trunk-based-development, where code reviews are implemented in the merge to production.
+
+* Production branch is protected
+* Pull requests must be approved before merge to production.
+* We use pull requests to enforce and document our code review process.  You can read more about it here: Code Review Process
+* Pull request merges will fast-forward. This means the production branch will always “point” to a commit on the master branch
+
+### Protected Deployment Branches
+
+To ensure compliance to the code review process, we protect the branch we deploy from (master or production) with the following requirements:
+
+* Merges require at least one approval (two if the strategy is Production Deployment Branch)
+* Builds and tests run successfully
+* No unresolved merge checks
+

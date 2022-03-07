@@ -1,3 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "http://devopscompliancefwk.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "DevOps Compliance Framework"
+
+
+[params]
+  Company = 'AcmePay'

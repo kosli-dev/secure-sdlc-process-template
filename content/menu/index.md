@@ -2,7 +2,7 @@
 headless: true
 ---
 
-- [**Example Site**]({{< relref "/docs/example" >}})
+- [**AcmePay SSDLC**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
   - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
@@ -11,12 +11,12 @@ headless: true
     - [4th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
 <br />
 
-- **Shortcodes**
-- [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
-- [Columns]({{< relref "/docs/shortcodes/columns" >}})
-- [Expand]({{< relref "/docs/shortcodes/expand" >}})
-- [Hints]({{< relref "/docs/shortcodes/hints" >}})
-- [KaTex]({{< relref "/docs/shortcodes/katex" >}})
-- [Mermaid]({{< relref "/docs/shortcodes/mermaid" >}})
-- [Tabs]({{< relref "/docs/shortcodes/tabs" >}})
+- **background**
+- [What]({{< relref "/docs/background/what" >}})
+- [Columns]({{< relref "/docs/background/columns" >}})
+- [Expand]({{< relref "/docs/background/expand" >}})
+- [Hints]({{< relref "/docs/background/hints" >}})
+- [KaTex]({{< relref "/docs/background/katex" >}})
+- [Mermaid]({{< relref "/docs/background/mermaid" >}})
+- [Tabs]({{< relref "/docs/background/tabs" >}})
 <br />
