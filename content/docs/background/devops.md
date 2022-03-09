@@ -1,9 +1,9 @@
 ---
 weight: 30
-title: DevOps Culture and Process
+title: DevOps Compliance Culture
 ---
 
-# DevOps Culture and Process
+# DevOps Compliance Culture
 
 The way we build and deliver software has change significantly over the years.  In the past, we would build systems on large, custom managed hardware.  Organizations were siloed by specialty, with different departments for analysis, development, quality assurance, and operations.  Software was delivered in releases, once a year, or once a quarter even.  Change was rare, risky, and large.
 
