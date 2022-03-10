@@ -13,7 +13,7 @@ The way we build and deliver software has change significantly over the years.  
 
 Over time, we have favoured smaller services-oriented architectures and independently deployable systems.  This allowed for more dynamic and resillient designs, and to leverage Conway's Law to organize our teams around these services.
 
-This trend continues, with the adoption of the latest serverless and functions-as-a-service available in cloud providers.
+This trend continues, with the rising adoption of serverless features and functions-as-a-service available in cloud providers.
 
 ## Who is responsible for compliance?
 
@@ -44,7 +44,7 @@ If we need to be compliant, but external approvals and management don't work, wh
 
 ## Continuous Compliance
 
-To support the efforts of devops teams, we need to move away **from manual gated checks** to **continuous automated checks**.
+This vast increase in the number of changes needs new and better approaches to change management and software process compliance.  To support the efforts of devops teams, we need to move away **from manual gated checks** towards **continuous automated checks**.
 
 | Need | Traditional Compliance | Continuous Compliance |
 | ----------- | ----------- | ----------- |
@@ -52,16 +52,27 @@ To support the efforts of devops teams, we need to move away **from manual gated
 | Change Managment | Change Tickets | Self documenting changes |
 | Governance | Audits | Compliance monitoring |
 
-## The Advantage of DevOps Compliance Cultures
+In this way, we can not only achieve more flow in our work, but actually get better compliance.
+
+{{< hint info >}}
+We have seen in practice that adoption of continuous compliance methodology lead to the similar benefits that test automation brings.
+
+Adopting test automation the need for testers does not go away, merely the monotonous repeatitive work.  This frees testers to work at higher-level exploratory testing.
+
+In the same way, Continuous Compliance does not mean the end of compliance work, but rather enables compliance officers to work on higher value compliance investigation.
+{{< /hint >}}
 
 
+## Conclusions: the Advantage of DevOps Compliance Cultures
 
-* Move risk management responsibility to the areas with most knowledge
-* Higher ownership of compliance
-* Transparency
-* Speed
+The devops principles around culture, automation, lean, measurment and sharing can help teams increase compliance activities while reducing delays and waste.  Overall the benefits from adopting a DevOps Compliance Culture are:
 
-This vast increase in the number of changes needs new and better approaches to change management and software process compliance.
+* **Culture**: creates agency for teams to lead risk management responsibilities
+* **Automation**: drives higher compliance conformance and reduces waste
+* **Lean**: results in continuous improvement in risk control posture
+* **Measurement**: ensures compliance becomes data-driven
+* **Sharing**: makes compliance work visible to empower compliance and security functions
+
 
 [^1]: https://cloud.google.com/devops/state-of-devops
 [^20]: Forsgren PhD, Nicole. Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations . IT Revolution Press. Kindle Edition.
