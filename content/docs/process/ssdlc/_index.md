@@ -1,7 +1,7 @@
 ---
-weight: 10
+weight: 20
 bookFlatSection: false
-title: "AcmePay SSDLC"
+title: "Lifecycle Areas"
 ---
 
 # Introduction
