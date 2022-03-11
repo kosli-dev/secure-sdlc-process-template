@@ -3,4 +3,5 @@ title: Workload Monitoring
 weight: 30
 ---
 
-# {{< param "title" >}}
+# {{% param "title" %}}
+{{< area_head >}}

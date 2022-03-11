@@ -2,7 +2,8 @@
 title: Version Control
 weight: 1
 ---
-# {{< param "title" >}}
+# {{% param "title" %}}
+{{< area_head >}}
 
 We use git to manage versioning for software development source code.  For repository hosting and user management we use Atlassian Bitbucket.
 

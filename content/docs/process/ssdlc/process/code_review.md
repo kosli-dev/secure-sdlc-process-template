@@ -3,4 +3,5 @@ title: Code Review
 weight: 10
 ---
 
-# {{< param "title" >}}
+# {{% param "title" %}}
+{{< area_head >}}

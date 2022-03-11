@@ -6,9 +6,13 @@ risks:
  - supply-chain
 
 ---
+
+# {{% param "title" %}}
 {{< area_head >}}
 
 In high security environments we need a tamper-proof identity scheme. In plain talk, if the software changes we want it to have a different identity.
+
+It must be impossible to qualify one artifact and deploy a different artifact.
 
 Luckily, this is a solved problem in computer science. The solution is Content Addressable Storage.
 
@@ -27,3 +31,9 @@ This means that if a single byte in the software changes it will have a differen
 - A url to the build log
 - The build environment information
 - The software bill of materials
+
+## Alternative identification of artifacts
+
+While Does this mean SemVer is dead? That you shouldn’t use git SHAs to identify your software? Not at all!
+
+These are very useful ways for humans to navigate identity through version control and CI systems. However, since they are fallible, we still need the primary key of identity to be the content-addressable storage, linked to the labels. Labels are for humans and SHAs are for machines.

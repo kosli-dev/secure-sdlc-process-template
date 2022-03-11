@@ -3,4 +3,5 @@ title: Change Logs
 weight: 10
 ---
 
-# {{< param "title" >}}
+# {{% param "title" %}}
+{{< area_head >}}

@@ -3,4 +3,5 @@ title: Policy as Code
 weight: 30
 ---
 
-# {{< param "title" >}}
+# {{% param "title" %}}
+{{< area_head >}}

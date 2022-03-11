@@ -3,4 +3,5 @@ title: "Deployment Approvals"
 weight: 40
 ---
 
-# {{< param "title" >}}
+# {{% param "title" %}}
+{{< area_head >}}

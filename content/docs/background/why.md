@@ -2,7 +2,7 @@
 weight: 10
 title: Why
 ---
-# Why do regulated organizations need a software process?
+# Why does {{% param "company"  %}} need a software process?
 
 Regulated organizations such as banks, insurance companies, and payment
 platforms obtain their license to operate from a government authority.   As a
@@ -18,19 +18,8 @@ internationally followed.
 
 ![Governing Context](/images/regulations.png)
 
-Essentially, we must:
-
-1. Have a defined process for software development
-2. Actually follow this process in our daily work
-3. Have the proof that we conform to the process during audit
-
-# What should be in the process?
-
-Generally a process should define the activities and technologies used in the
-development and maintenance of our software.
-
-
-# Change Management
+{{< hint info >}}
+### Risk Management
 Typical obligations in this framework include having processes around how IT
 systems change, and managing the risks associated with changes.  Crucially, it
 is expected that there are comprehensive records of these changes, and the risk
@@ -38,5 +27,39 @@ mitigations and internal controls performed as part of the changes.
 
 This record of your changes should also contain evidence that your developers
 are following your process and performing risk controls.
+{{< /hint >}}
+
+Essentially, we must:
+
+1. *Define*: Have a defined process for software development
+2. *Implement*: Actually follow this process in our daily work
+3. *Prove*: Have the proof that we conform to the process during audit
+
+![Governance Framework](/images/governance.png)
+
+## What should be in a SSDLC process?
+
+Generally a process should define the activities and technologies used in the
+development and maintenance of our software. In a regulated setting, the
+rationale for given controls and processes should map to the risks identified
+in governance.
+
+- A risk register
+- The areas of SLDC
+    - For each area:
+      - A definition
+      - Risks this area controls for
+      - A rationale
+      - Application rule (Mandatory, Optional)
+
+{{< hint info >}}
+## How should our SSDLC be documented?
+Version controlled
+{{< /hint >}}
+
+## Documenting Options and Exceptions
+
+It
+
 
 

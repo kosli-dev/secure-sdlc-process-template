@@ -5,3 +5,10 @@ title = "DevOps Compliance Framework"
 
 [params]
   company = 'AcmePay'
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
