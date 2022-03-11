@@ -1,5 +1,5 @@
 ---
-title: Quality
+title: Quality Assurance
 weight: 20
 ---
 

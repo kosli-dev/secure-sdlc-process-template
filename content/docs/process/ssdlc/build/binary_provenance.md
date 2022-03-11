@@ -1,7 +1,7 @@
 ---
 title: Artifact Binary Provenance
 weight: 1
-tldr: We can identify the software we have running in production
+tldr: We can identify the source of the software we have running in production
 risks:
  - supply-chain
 
