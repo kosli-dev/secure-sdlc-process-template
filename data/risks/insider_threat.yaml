@@ -1,0 +1,8 @@
+risk:
+  risk_key: insider_threat
+  display_name: Insider Threat
+  description: Someone inside the company acts against the best intests
+  mitigations:
+  - code_review
+  - deployment_approvals
+  - workload_monitoring

@@ -6,3 +6,4 @@ title: "Risk Register"
 
 # Risk Register
 
+{{< risks >}}
