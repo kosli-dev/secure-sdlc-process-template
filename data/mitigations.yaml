@@ -1,0 +1,9 @@
+
+- id: code_review
+  path: "process/code_review"
+
+- id: deployment_approvals
+  path: "process/deployment_approvals"
+
+- id: workload_monitoring
+  path: "runtime/workload_monitoring"

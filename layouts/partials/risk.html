@@ -1,10 +1,13 @@
 <ul>
-    <li>{{ .risk.display_name }}</li>
-    <li>Description: {{ .risk.description }}</li>
+    <li>{{ .root.risk.display_name }}</li>
+    <li>Description: {{ .root.risk.description }}</li>
     <li>Mitigations: </li>
     <ul>
-        {{ range .risk.mitigations }}
-        <li>{{ . }}</li>
+      {{ range .root.risk.mitigations }}
+        <li>
+            {{ . }}:
+        </li>
+
       {{ end }}
     </ul>
 </ul>
