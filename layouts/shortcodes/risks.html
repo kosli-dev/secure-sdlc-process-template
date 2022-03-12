@@ -1,4 +1,5 @@
 {{ range $.Site.Data.risks }}
+   {{ $allMitigations := $.Site.Data.mitigations }}
    <!--  Pass a dictionary with the risk and the mitigations map -->
    {{ partial "risk.html" (dict "root" . "mitigations" $allMitigations) }}
 {{ end }}
