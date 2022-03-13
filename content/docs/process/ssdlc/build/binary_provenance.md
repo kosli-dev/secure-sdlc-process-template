@@ -11,19 +11,19 @@ risks:
 # {{% param "title" %}}
 {{< area_head >}}
 
-In high security environments we need a tamper-proof identity scheme. In plain talk, if the software changes we want it to have a different identity.
+{{< rationale >}}
+High security environment require a tamper-proof identity scheme. The use of Content Addressable Storage mechanisms ensures that if software changes it will have a different identity.  Store this provenance information in {{% param "csor"  %}}.
+{{< /rationale >}}
 
-It must be impossible to qualify one artifact and deploy a different artifact.
 
-Luckily, this is a solved problem in computer science. The solution is Content Addressable Storage.
-
-How this works is really simple. Instead of using a label to define software identity, you use the cryptographic hash of the software itself.
+## Background
+To define software identity, you use the cryptographic hash of the software itself. We use the SHA256 digest of the sofware binary.
 
 This means that if a single byte in the software changes it will have a different identity.
 
 ![Binary Provenance](/images/binary-provenance.svg)
 
-## What to store in the system of record?
+## What evidence to record
 
 - The SHA256 of the artifact (docker image, zip file, ...)
 - A human readable name
@@ -35,6 +35,8 @@ This means that if a single byte in the software changes it will have a differen
 
 ## Alternative identification of artifacts
 
-While Does this mean SemVer is dead? That you shouldn’t use git SHAs to identify your software? Not at all!
+It can be helpful to use human-friendly identites in CI displays, filenames, and docker image tags.  Some examples could be semver, or git source commits.
 
-These are very useful ways for humans to navigate identity through version control and CI systems. However, since they are fallible, we still need the primary key of identity to be the content-addressable storage, linked to the labels. Labels are for humans and SHAs are for machines.
+These are very useful ways for humans to navigate identity through version control and CI systems. However, since they are fallible, they cannot be used to identify software in the security and compliance areas.
+
+Use labels for humans and SHAs for machines.

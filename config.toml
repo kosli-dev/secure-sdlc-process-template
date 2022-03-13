@@ -8,6 +8,7 @@ title = "DevOps Compliance Framework"
 
 [params]
   company = 'AcmePay'
+  csor = 'a compliance system of record'
 
 [markup]
 [markup.goldmark.renderer]
