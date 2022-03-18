@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "DevOps Compliance Framework"
 
 [taxonomies]
-  sdlc_area = 'sdlc_areas'
   risk = 'risks'
+  level = 'levels'
 
 [params]
   company = 'AcmePay'

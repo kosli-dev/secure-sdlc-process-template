@@ -1,7 +1,9 @@
 ---
 title: Licencing
+level: 1
 weight: 20
 tldr: Every software used in our value stream is approved according to our licencing requirements
+
 ---
 
 # {{% param "title" %}}

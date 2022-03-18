@@ -2,6 +2,7 @@
 title: Dependency Management
 weight: 20
 tldr: Every dependency is defined securely, managed, and auditable
+level: 1
 ---
 
 # {{% param "title" %}}

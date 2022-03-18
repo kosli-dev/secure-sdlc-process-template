@@ -1,7 +1,7 @@
 ---
 weight: 20
 bookFlatSection: false
-title: "Lifecycle Areas"
+title: "Requirements"
 ---
 
 # Introduction

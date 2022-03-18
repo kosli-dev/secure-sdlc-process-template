@@ -1,19 +1,15 @@
 ---
 title: Artifact Binary Provenance
 weight: 1
-sdlc_area: Artifact Binary Provenance
 tldr: Every software running production has known provenance
+rationale: High security environment require a tamper-proof identity scheme. The use of Content Addressable Storage mechanisms ensures that if software changes it will have a different identity.
 risks:
  - supply-chain
-
+level: 1
 ---
 
 # {{% param "title" %}}
 {{< area_head >}}
-
-{{< rationale >}}
-High security environment require a tamper-proof identity scheme. The use of Content Addressable Storage mechanisms ensures that if software changes it will have a different identity.  Store this provenance information in {{% param "csor"  %}}.
-{{< /rationale >}}
 
 
 ## Background

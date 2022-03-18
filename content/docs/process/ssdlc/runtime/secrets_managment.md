@@ -1,5 +1,6 @@
 ---
 title: Secrets Management
+level: 1
 weight: 30
 tldr: Build and runtime secrets are stored securely and documented appropriately
 ---

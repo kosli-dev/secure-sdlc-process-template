@@ -1,6 +1,7 @@
 ---
 title: Version Control
 weight: 1
+level: 1
 tldr: Every change to the source is tracked in a version control system
 ---
 # {{% param "title" %}}
