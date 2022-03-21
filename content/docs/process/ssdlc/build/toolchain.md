@@ -1,5 +1,5 @@
 ---
-title: Immutable Toolchain
+title: Defined Toolchain
 level: 3
 weight: 20
 tldr: Build environments must be defined securely and auditable

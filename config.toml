@@ -9,6 +9,8 @@ title = "DevOps Compliance Framework"
 [params]
   company = 'AcmePay'
   csor = 'a compliance system of record'
+  vcs = 'git'
+  vcsHost = 'github'
 
 [markup]
 [markup.goldmark.renderer]

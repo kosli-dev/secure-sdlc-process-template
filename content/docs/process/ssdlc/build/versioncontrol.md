@@ -3,11 +3,13 @@ title: Version Control
 weight: 1
 level: 1
 tldr: Every change to the source is tracked in a version control system
+rationale: Version control allows us to track and manage changes to our software code.  As a traceability system, it provides a means to understand how our software changes, who changes it, and why it was changed.
 ---
 # {{% param "title" %}}
 {{< area_head >}}
 
-We use git to manage versioning for software development source code.  For repository hosting and user management we use Atlassian Bitbucket.
+## Background
+We use {{< param "vcs"  >}} to manage versioning for software development source code.  For repository hosting and user management we use {{< param "vcsHost"  >}}.
 
 
 ## Branching Strategies

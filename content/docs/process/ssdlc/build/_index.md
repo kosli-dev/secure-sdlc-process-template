@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: Controlled Build
+title: Build
 bookCollapseSection: false
 ---
 

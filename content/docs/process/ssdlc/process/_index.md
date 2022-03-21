@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: Controlled Policy
+title: Policy
 bookCollapseSection: false
 ---
 
