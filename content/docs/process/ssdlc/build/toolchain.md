@@ -3,10 +3,12 @@ title: Defined Toolchain
 level: 3
 weight: 20
 tldr: Build environments must be defined securely and auditable
+rationale: A secure build environment is the foundation for a mitigating software supply chain attacks.  Build environments defined as code protect against interference that can happen in the build and distribution processes.
 ---
 # {{% param "title" %}}
 {{< area_head >}}
 
+## Background
 The Build security levels defined in the [slsa specification](https://slsa.dev/spec/v0.1/requirements#scripted-build) are as follows:
 
 1. Scripted

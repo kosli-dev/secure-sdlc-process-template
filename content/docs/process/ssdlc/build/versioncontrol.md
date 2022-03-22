@@ -16,12 +16,12 @@ We use {{< param "vcs"  >}} to manage versioning for software development source
 
 Every service will follow one of the following branching strategies:
 
-* Feature Branch + Pull Request
-* Production Branches
+1. Feature Branch + Pull Request, or:
+2. Production Branches
 
 These are described below.
 
-### Feature Branch + Pull Request
+### 1. Feature Branch + Pull Request
 
 This branching strategy uses a combination of feature branches with pull requests.
 
@@ -40,7 +40,7 @@ On deployment to production, we update the production branch to point to the rel
 Merges to master should either be merge commits or squash commits... i.e. no fast-forward merges.  This allows us to atomically back out merges should we need to.
 
 
-### Production Deployment Branch
+### 2. Production Deployment Branch
 
 The Production Deployment branch is an alternative to the feature-branch/pull-request strategy.
 
