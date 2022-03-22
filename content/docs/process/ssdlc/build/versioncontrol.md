@@ -27,17 +27,13 @@ This branching strategy uses a combination of feature branches with pull request
 
 ![Feature Branch Strategy](/images/feature-branch-pr-strategy.png)
 
-* Master branch is protected
-* Pull requests must be approved before merge to master.
-* We use pull requests to enforce and document our code review process.  You can read more about it here: Code Review Process
-* Pull request merges will create merge or squash commits. (no fast-forward)
-* For repositories that contain production code, we will utilize a production tracking branch, which is updated by the deployment pipeline stage with ff-only merges.
+* Main branch is protected
+* Pull requests must be approved before merge to the main branch.
+* We use pull requests to enforce and document our code review process.  You can read more about it here: [Code Review Process]({{< relref "/docs/process/ssdlc/process/code_review" >}})
+* Pull request merges should create merge or squash commits. (no fast-forward)
 
-On deployment to production, we update the production branch to point to the related commit.  This enables development team to have visibility on production from git. The merge looks like this:
 
-![Feature Branch Strategy](/images/production-tracking-branch.png)
-
-Merges to master should either be merge commits or squash commits... i.e. no fast-forward merges.  This allows us to atomically back out merges should we need to.
+Merges to the main should either be merge commits or squash commits... i.e. no fast-forward merges.  This allows us to atomically back out merges should we need to.
 
 
 ### 2. Production Deployment Branch
@@ -49,11 +45,11 @@ This allows a model similar to trunk-based-development, where code reviews are i
 * Production branch is protected
 * Pull requests must be approved before merge to production.
 * We use pull requests to enforce and document our code review process.  You can read more about it here: Code Review Process
-* Pull request merges will fast-forward. This means the production branch will always “point” to a commit on the master branch
+* Pull request merges will fast-forward. This means the production branch will always “point” to a commit on the main branch
 
 ### Protected Deployment Branches
 
-To ensure compliance to the code review process, we protect the branch we deploy from (master or production) with the following requirements:
+To ensure compliance to the code review process, we protect the branch we deploy from (main or production) with the following requirements:
 
 * Merges require at least one approval (two if the strategy is Production Deployment Branch)
 * Builds and tests run successfully

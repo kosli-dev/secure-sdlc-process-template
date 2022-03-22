@@ -1,8 +1,5 @@
 ---
 weight: 20
 title: Policy
-bookCollapseSection: false
+bookCollapseSection: true
 ---
-
-# {{% param "title" %}}
-{{< area_head >}}
