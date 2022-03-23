@@ -59,7 +59,7 @@ Version controlled
 
 ## Documenting Options and Exceptions
 
-It
+Exceptions and customizations should be defined in the exception register.
 
 
 

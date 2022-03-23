@@ -9,14 +9,15 @@ rationale: A secure build environment is the foundation for a mitigating softwar
 {{< area_head >}}
 
 ## Background
-The Build security levels defined in the [slsa specification](https://slsa.dev/spec/v0.1/requirements#scripted-build) are as follows:
+Builds that are scripted, ran in an ephemeral and controlled build environment
+are more resilient against supply chain attacks.  If at all possible, we
+recommend teams use immutable docker images to define the build environment.
+This enables auditing of the build environment, as well as security scanning and
+version control.
 
-1. Scripted
-1. Ran in a controlled build service
-1. Defined as code (CI definition)
-1. Ephemeral environment
-1. Isolated
-1. Parameterless
-1. Hermetic
-1. Reproducible
+![Toolchain](/images/toolchain.png)
+
+{{< hint info >}}
+You can learn more about build security levels defined in the [slsa specification](https://slsa.dev/spec/v0.1/requirements#scripted-build).
+{{< /hint >}}
 

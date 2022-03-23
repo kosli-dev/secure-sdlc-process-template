@@ -9,11 +9,13 @@ level: 1
 # {{% param "title" %}}
 {{< area_head >}}
 
+## Background
+
 * You must have control over what dependencies are packaged in your software
 * All dependencies must comply with licensing requirements
 * Must only use software with licences agreed by {{% param "company"  %}}
 
-## Background
+
 
 * This can be solved with a secure artifact management system
 * This can be supported with software bill-of-materials
