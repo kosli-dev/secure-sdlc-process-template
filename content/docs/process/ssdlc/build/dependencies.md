@@ -11,12 +11,20 @@ level: 1
 
 ## Background
 
+
+
+Key points:
+
 * You must have control over what dependencies are packaged in your software
 * All dependencies must comply with licensing requirements
 * Must only use software with licences agreed by {{% param "company"  %}}
 
+Dependencies can include docker base images, 3rd-party libraries, and other
+source code.
 
+![Dependencies](/images/dependencies.png)
 
-* This can be solved with a secure artifact management system
-* This can be supported with software bill-of-materials
+During build, these inputs to the build package can be recorded as the software
+bill-of-materials while recording
+[binary provenance]({{< relref "/docs/process/ssdlc/build/binary_provenance" >}})
 
