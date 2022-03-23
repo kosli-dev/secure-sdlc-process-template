@@ -54,7 +54,7 @@ in governance.
 
 {{< hint info >}}
 ## How should our SSDLC be documented?
-Version controlled
+It should be defined and available on an internal website and stored in a version controlled system such as git.
 {{< /hint >}}
 
 ## Documenting Options and Exceptions

@@ -1,5 +1,5 @@
 ---
 weight: 30
-title: Controlled Runtime
+title: Runtime
 bookCollapseSection: false
 ---

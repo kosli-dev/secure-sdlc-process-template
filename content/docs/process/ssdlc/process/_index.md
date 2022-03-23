@@ -1,5 +1,5 @@
 ---
 weight: 20
-title: Policy
+title: Quality
 bookCollapseSection: false
 ---
