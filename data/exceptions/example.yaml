@@ -1,0 +1,3 @@
+exception:
+  scope: Team XX, service ZZ
+  description: Team XX does not use code reviews due to YY

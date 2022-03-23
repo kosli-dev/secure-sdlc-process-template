@@ -1,0 +1,5 @@
+{{ range $.Site.Data.exceptions }}
+   {{ $allExceptions := $.Site.Data.exceptions }}
+   <!--  Pass a dictionary with the exception and the mitigations map -->
+   {{ partial "exception.html" . }}
+{{ end }}
