@@ -3,12 +3,12 @@ title: Introduction
 type: docs
 ---
 
-# The DevOps Compliance Framework
+# The DevOpsCTL Framework
 
 {{< columns >}}
 ## DevOps Values
 
-The DevOps Compliance Framework is a defined secure software development process
+The DevOpsCTL Framework is a defined secure software development process
 with **DevOps Culture** at it's heart.
 
 <--->
