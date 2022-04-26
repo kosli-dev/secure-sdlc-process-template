@@ -1,3 +1,5 @@
 exception:
-  scope: Team XX, service ZZ
-  description: Team XX does not use code reviews due to YY
+  service: build-logrotate
+  owner: platform team
+  description: Does not use code reviews
+  rationale: This code is never ran in production systems
