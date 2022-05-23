@@ -1,6 +1,6 @@
 baseURL = "https://devopscompliancefwk.com/"
 languageCode = "en-us"
-title = "DevOpsCTL Framework"
+title = "DevOps Control Framework"
 
 [taxonomies]
   risk = 'risks'

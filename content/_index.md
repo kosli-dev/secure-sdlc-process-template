@@ -3,12 +3,12 @@ title: Introduction
 type: docs
 ---
 
-# The DevOpsCTL Framework
+# The DevOps Control Framework
 
 {{< columns >}}
 ## DevOps Values
 
-The DevOpsCTL Framework is a defined secure software development process
+The DevOps Control Framework is a defined secure software development process
 with **DevOps Culture** at it's heart.
 
 <--->
