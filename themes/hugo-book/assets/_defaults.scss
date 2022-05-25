@@ -9,14 +9,14 @@ $font-size-12: 0.75rem !default;
 $font-size-14: 0.875rem !default;
 $font-size-16: 1rem !default;
 
-$border-radius: $padding-4 !default;
+$border-radius: $padding-8 !default;
 
 $body-font-weight: normal !default;
 
 $body-min-width: 20rem !default;
 $container-max-width: 80rem !default;
 
-$header-height: 3.5rem !default;
+$header-height: 6rem !default;
 $menu-width: 16rem !default;
 $toc-width: 16rem !default;
 
@@ -45,6 +45,9 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
+
+  --header-color: #000E41;
+  --green: #29B57D;
 }
 
 @mixin theme-dark {

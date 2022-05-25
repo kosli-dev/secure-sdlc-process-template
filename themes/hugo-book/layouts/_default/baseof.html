@@ -7,6 +7,20 @@
 <body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
+  
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="{{ "svg/logo.svg" | relURL }}" alt="DevOps Control Framework Logo">
+      </div>
+      <div>
+        <a class="btn" href="https://github.com/merkely-development/devopsctl/fork" target="_blank">
+          Fork this repo <span class="icon gitfork"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
   <main class="container flex">
     <aside class="book-menu">
       <div class="book-menu-content">

@@ -1,3 +1,54 @@
 /* You can add custom styles here. */
 
 // @import "plugins/numbered";
+
+header {
+    background-color: var(--header-color);
+    height: $header-height;
+    color: white;
+
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            height: 100%;
+            padding: 2rem 0;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+}
+
+.book-menu .book-menu-content,
+.book-toc .book-toc-content {
+    position: relative;
+}
+
+.icon {
+    &:before {
+        content: "";
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+    }
+
+    &.gitfork {
+        &:before {
+            background-image: url('svg/gitfork.svg');
+        }
+    }
+}
+
+.btn {
+    background-color: var(--green);
+    border-radius: $border-radius;
+    color: #ffffff;
+    padding: 1rem 2rem;
+}
