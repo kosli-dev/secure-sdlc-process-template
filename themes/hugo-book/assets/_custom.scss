@@ -52,3 +52,22 @@ header {
     color: #ffffff;
     padding: 1rem 2rem;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.markdown {
+     h1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}
