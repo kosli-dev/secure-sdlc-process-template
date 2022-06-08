@@ -42,6 +42,8 @@ header {
             }
         }
         &:hover {
+            -webkit-box-shadow: -3px 0 0 0 var(--blue-100);
+            -moz-box-shadow: -3px 0 0 0 var(--blue-100);
             box-shadow: -3px 0 0 0 var(--blue-100);
         }
     }
@@ -72,7 +74,7 @@ header {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .fw-700 {
@@ -80,11 +82,11 @@ body {
 }
 
 code {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .markdown {
