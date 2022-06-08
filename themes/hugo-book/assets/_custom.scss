@@ -24,6 +24,10 @@ header {
     }
 }
 
+.book-search input {
+    border: 1px solid var(--blue-500);
+}
+
 .book-menu .book-menu-content,
 .book-toc .book-toc-content {
     position: relative;
@@ -85,13 +89,13 @@ code {
     font-family: 'IBM Plex Mono', monospace;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Proxima Nova', sans-serif;
-}
-
 .markdown {
-     h1 {
-        font-size: 3rem;
+    h1, h2, h3, h4, h5 {
+        font-family: 'Proxima Nova', sans-serif;
         font-weight: 600;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 }
