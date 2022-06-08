@@ -29,6 +29,27 @@ header {
     position: relative;
 }
 
+.toc-container {
+    border-left: solid 3px var(--neutral-300);
+    li {
+        padding-left: 1.6rem;
+        font-weight: 600;
+        a {
+            color: var(--black-100);
+            &:hover {
+                color: var(--blue-100);
+                opacity: 1;
+            }
+        }
+        &:hover {
+            box-shadow: -3px 0 0 0 var(--blue-100);
+            // a {
+            //     color: var(--blue-100);
+            // }
+        }
+    }
+}
+
 .icon {
     &:before {
         content: "";
@@ -55,6 +76,10 @@ header {
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.fw-700 {
+    font-weight: 700;
 }
 
 code {

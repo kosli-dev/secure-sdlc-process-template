@@ -1,4 +1,7 @@
 {{ partial "docs/inject/toc-before" . }}
-<h3>On this page</h3>
-{{ .TableOfContents }}
+<h3 class="fw-700">On this page</h3>
+<div class="toc-container">
+    {{ .TableOfContents }}
+</div>
+
 {{ partial "docs/inject/toc-after" . }}
