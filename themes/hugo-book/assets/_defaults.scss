@@ -34,8 +34,8 @@ $hint-colors: (
   --gray-200: #e9ecef;
   --gray-500: #adb5bd;
 
-  --color-link: #0055bb;
-  --color-visited-link: #8440f1;
+  --color-link: var(--blue-100);
+  --color-visited-link: var(--blue-100);
 
   --body-background: white;
   --body-font-color: black;

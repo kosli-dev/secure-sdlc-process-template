@@ -11,6 +11,8 @@ title = "DevOps Control Framework"
   csor = 'a compliance system of record'
   vcs = 'git'
   vcsHost = 'github'
+  forkLink = 'https://github.com/merkely-development/devopsctl/fork'
+  logo = 'svg/logo.svg'
 
 [markup]
 [markup.goldmark.renderer]

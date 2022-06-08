@@ -24,13 +24,25 @@ header {
     }
 }
 
-.book-search input {
-    border: 1px solid var(--blue-500);
+.book-search {
+    margin-top: 0;
+    input {
+        border: 1px solid var(--blue-500);
+    }
+}
+
+.book-menu a:hover {
+    color: var(--blue-100);
+    opacity: 1;
 }
 
 .book-menu .book-menu-content,
 .book-toc .book-toc-content {
     position: relative;
+
+    h3 {
+        margin-top: 0;
+    }
 }
 
 .toc-container {
