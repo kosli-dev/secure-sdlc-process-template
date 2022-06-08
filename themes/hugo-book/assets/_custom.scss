@@ -97,5 +97,8 @@ code {
 
     h1 {
         font-size: 3rem;
+        margin-top: 0;
+        border-bottom: 1px solid var(--neutral-300);
+        padding-bottom: 1rem;
     }
 }

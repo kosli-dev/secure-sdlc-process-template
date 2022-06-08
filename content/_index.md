@@ -3,6 +3,8 @@ title: Introduction
 type: docs
 ---
 
+![Devops Control Framework](/images/hero-home.svg)
+
 # The DevOps Control Framework
 
 {{< columns >}}
