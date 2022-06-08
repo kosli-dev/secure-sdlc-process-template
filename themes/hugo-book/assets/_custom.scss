@@ -102,6 +102,12 @@ code {
 }
 
 .markdown {
+    figure {
+        + h1, + h2 {
+            margin-top: 0;
+        }
+    }
+
     h1, h2, h3, h4, h5 {
         font-family: 'Proxima Nova', sans-serif;
         font-weight: 600;
@@ -109,8 +115,10 @@ code {
 
     h1 {
         font-size: 3rem;
-        margin-top: 0;
         border-bottom: 1px solid var(--neutral-300);
         padding-bottom: 1rem;
+    }
+    h2 {
+        font-size: 1.8rem;
     }
 }

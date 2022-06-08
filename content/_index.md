@@ -3,18 +3,18 @@ title: Introduction
 type: docs
 ---
 
-![Devops Control Framework](/images/hero-home.svg)
-
+{{< figure src="/images/hero-home.svg" alt="Devops Control Framework">}}
 # The DevOps Control Framework
 
 {{< columns >}}
+{{< figure src="/images/devops-values.svg" alt="DevOps Values" >}}
 ## DevOps Values
 
 The DevOps Control Framework is a defined secure software development process
 with **DevOps Culture** at it's heart.
 
 <--->
-
+{{< figure src="/images/continuous-compliance.svg" alt="Continuous Compliance" >}}
 ## Continuous Compliance
 
 This is the distillation of the real processes in use by leading regulated
