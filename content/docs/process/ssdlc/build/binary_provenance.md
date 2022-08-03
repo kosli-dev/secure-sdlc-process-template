@@ -17,7 +17,7 @@ To define software identity, you use the cryptographic hash of the software itse
 
 This means that if a single byte in the software changes it will have a different identity.
 
-![Binary Provenance](/images/binary-provenance.svg)
+{{< figure src="/images/binary-provenance.svg" alt="Binary Provenance" >}}
 
 ## What evidence to record
 

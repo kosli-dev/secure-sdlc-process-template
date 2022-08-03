@@ -19,7 +19,7 @@ Important considerations we make before approving a Pull Request:
 - Quality: is this maintainable?
 - Verification: Does this require manual testing? Has is been performed?
 
-![Feature Branch Strategy](/images/feature-branch-pr-strategy.png)
+{{< figure src="/images/feature-branch-pr.svg" alt="Feature Branch Strategy" >}}
 
 {{< hint warning >}}
 ### Code Review Anti-patterns

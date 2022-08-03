@@ -18,5 +18,4 @@ landscapes:
 * **Incident**: Alerts are firing for a service, who do I contact?  What has changed lately?
 * **Audit**: who is reponsible that the DevOpsCTL process is followed for this service?
 
-
-![Change Records](/images/change-records.png)
+{{< figure src="/images/secrets-management.svg" alt="Change Records" >}}

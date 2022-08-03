@@ -9,7 +9,7 @@ title: "Software Process"
 This is the Secure Software Development Lifecycle for {{< param "company"  >}}
 
 {{< columns >}}
-![DevOps Compliance Framework](/images/flat-padlock-merkely-secure.svg)
+{{< figure src="/images/padlock.svg" alt="DevOps Compliance Framework" >}}
 <--->
 The DevSecOps Framework defines the capabilities in a secure DevOps landscape.
 

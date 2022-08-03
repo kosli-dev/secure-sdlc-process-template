@@ -32,13 +32,13 @@ software development.  It is a governance framework which forms a _definition_
 of how things should be done, which should be adhered to in _implementation_,
 which produces _proof_ of conformance.
 
-![Governance Framework](/images/governance.png)
+{{< figure src="/images/governance.svg" alt="Governance Framework" >}}
 
 ## Scope
 
 The scope of this framework is to secure the entire value stream of software
 development.
-![Secure Value Stream](/images/value-stream.png)
+{{< figure src="/images/governance-scope.svg" alt="Secure Value Stream" >}}
 
 
 

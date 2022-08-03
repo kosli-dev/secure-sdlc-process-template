@@ -22,7 +22,8 @@ Key points:
 Dependencies can include docker base images, 3rd-party libraries, and other
 source code.
 
-![Dependencies](/images/dependencies.png)
+{{< figure src="/images/dependency-management.svg" alt="Dependency Management" >}}
+
 
 During build, these inputs to the build package can be recorded as the software
 bill-of-materials while recording
