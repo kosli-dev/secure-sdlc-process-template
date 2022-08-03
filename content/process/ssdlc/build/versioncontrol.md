@@ -29,7 +29,7 @@ This branching strategy uses a combination of feature branches with pull request
 
 * Main branch is protected
 * Pull requests must be approved before merge to the main branch.
-* We use pull requests to enforce and document our code review process.  You can read more about it here: [Code Review Process]({{< relref "/docs/process/ssdlc/process/code_review" >}})
+* We use pull requests to enforce and document our code review process.  You can read more about it here: [Code Review Process]({{< relref "/process/ssdlc/process/code_review" >}})
 * Pull request merges should create merge or squash commits. (no fast-forward)
 
 

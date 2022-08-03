@@ -1,4 +1,4 @@
-baseURL = "https://devopscompliancefwk.com/"
+baseURL = "https://devopsctl.com/"
 languageCode = "en-us"
 title = "DevOps Control Framework"
 
@@ -11,8 +11,9 @@ title = "DevOps Control Framework"
   csor = 'a compliance system of record'
   vcs = 'git'
   vcsHost = 'github'
-  forkLink = 'https://github.com/merkely-development/devopsctl/fork'
+  forkLink = 'https://github.com/kosli-dev/devopsctl/fork'
   logo = 'svg/logo.svg'
+  BookSection = '/'
 
 [markup]
 [markup.goldmark.renderer]

@@ -1,6 +1,7 @@
 ---
+weight: 1
 title: Introduction
-type: docs
+bookToC: true
 ---
 
 {{< figure src="/images/hero-home.svg" alt="Devops Control Framework">}}

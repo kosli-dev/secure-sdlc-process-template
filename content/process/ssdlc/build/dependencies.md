@@ -27,5 +27,5 @@ source code.
 
 During build, these inputs to the build package can be recorded as the software
 bill-of-materials while recording
-[binary provenance]({{< relref "/docs/process/ssdlc/build/binary_provenance" >}})
+[binary provenance]({{< relref "/process/ssdlc/build/binary_provenance" >}})
 
