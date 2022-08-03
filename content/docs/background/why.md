@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: Why
+title: Why do you need a process?
 ---
 # Why does {{% param "company"  %}} need a software process?
 
