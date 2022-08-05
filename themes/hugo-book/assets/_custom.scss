@@ -101,6 +101,41 @@ code {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+ul.hlist {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    li {
+        list-style-type: none;
+        &+li {
+            padding-left: 2rem;
+        }
+    }
+}
+
+
+.book-footer {
+    hr {
+        background-color: var(--neutral-300);
+        border: none;
+        height: 1px;
+        margin-bottom: 2rem
+    }
+    .footer-title {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    .footer-logo {
+        display: inline-block;
+        height: auto;
+        width: 5rem;
+        vertical-align: middle;
+        margin-left: 0.5rem;
+    }
+}
+
 .markdown {
     figure {
         + h1, + h2 {
