@@ -7,7 +7,7 @@ title: DevOps Compliance Culture
 
 > TLDR: DevOps teams who understand and conform to process with automation support outperform teams with external approvals and compliance managers.
 
-The way we build and deliver software has change significantly over the years.  In the past, we would build systems on large, custom managed hardware.  Organizations were siloed by specialty, with different departments for analysis, development, quality assurance, and operations.  Software was delivered in releases, once a year, or once a quarter even.  Change was rare, risky, and large.
+The way we build and deliver software has changed significantly over the years.  In the past, we would build systems on large, custom managed hardware.  Organizations were siloed by specialty, with different departments for analysis, development, quality assurance, and operations.  Software was delivered in releases, once a year, or once a quarter even.  Change was rare, risky, and large.
 
 {{< figure src="/images/changes-over-time.svg" alt="Software Landscape" >}}
 

@@ -44,7 +44,7 @@ rationale for given controls and processes should map to the risks identified
 in governance.
 
 - A risk register
-- The areas of SLDC
+- The areas of SSDCL
     - For each area:
       - A definition
       - Risks this area controls for

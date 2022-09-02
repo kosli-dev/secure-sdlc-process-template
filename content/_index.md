@@ -19,7 +19,7 @@ with **DevOps Culture** at it's heart.
 ## Continuous Compliance
 
 This is the distillation of the real processes in use by leading regulated
-instituitons to deliver **compliant, secure, and audit-ready software**.
+institutions to deliver **compliant, secure, and audit-ready software**.
 
 {{< /columns >}}
 
@@ -27,7 +27,7 @@ instituitons to deliver **compliant, secure, and audit-ready software**.
 
 ## Overview
 
-The purpose of a Secure Software Development Lifecycle (SDLC) is to provide a
+The purpose of a Secure Software Development Lifecycle (SSDLC) is to provide a
 defined, repeatable way of working that manages IT risks associated with
 software development.  It is a governance framework which forms a _definition_
 of how things should be done, which should be adhered to in _implementation_,
