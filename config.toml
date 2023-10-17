@@ -1,6 +1,6 @@
 baseURL = "https://devopsctl.com/"
 languageCode = "en-us"
-title = "DevOps Control Framework"
+title = "Kosli's Software Development Lifecycle"
 
 [taxonomies]
   risk = 'risks'
