@@ -5,13 +5,13 @@ bookToC: true
 ---
 
 {{< figure src="/images/hero-home.svg" alt="Devops Control Framework">}}
-# The DevOps Control Framework
+# Kosli's Software Delivery Lifecycle
 
 {{< columns >}}
 {{< figure src="/images/devops-values.svg" alt="DevOps Values" >}}
 ## DevOps Values
 
-The DevOps Control Framework is a defined secure software development process
+This is a defined secure software development process
 with **DevOps Culture** at it's heart.
 
 <--->
@@ -27,8 +27,8 @@ institutions to deliver **compliant, secure, and audit-ready software**.
 
 ## Overview
 
-The purpose of a Secure Software Development Lifecycle (SSDLC) is to provide a
-defined, repeatable way of working that manages IT risks associated with
+The purpose of this Secure Software Development Lifecycle (SSDLC) is to provide a
+defined, repeatable way of working that manages Kosli's risks associated with
 software development.  It is a governance framework which forms a _definition_
 of how things should be done, which should be adhered to in _implementation_,
 which produces _proof_ of conformance.
@@ -37,7 +37,7 @@ which produces _proof_ of conformance.
 
 ## Scope
 
-The scope of this framework is to secure the entire value stream of software
+The scope of this framework is to secure the entire value stream of our software
 development.
 {{< figure src="/images/governance-scope.svg" alt="Secure Value Stream" >}}
 
