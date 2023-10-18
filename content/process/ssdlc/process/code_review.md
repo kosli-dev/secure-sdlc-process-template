@@ -31,3 +31,10 @@ To avoid this, we recommend pair- or ensemble-programming: a practice where more
 Note: the reviewer should not be the person who pushes the last commit on the branch.
 
 {{< /hint >}}
+
+
+## How we implement this control
+
+* We prefer real time reviews with pair or ensemble programming
+* We use pull requests to document reviews in github
+* We protect the `main` branch in each repository
