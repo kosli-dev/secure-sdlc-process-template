@@ -11,7 +11,7 @@ rationale: To meet segregation of duties requirements, all deploymnents to produ
 
 ## Background
 
-Segregations of duties is a common requirement in regulated or high security
+Segregation of duties is a common requirement in regulated or high security
 development environment. Put plainly, it means that a developer cannot deploy
 their own changes without approval from someone who both:
 
@@ -31,4 +31,4 @@ In highly sensitive software systems, more than one approver may be required.
 Deployment approvals are
 
 * We use git tags to trigger and record deployment approvals
-* CI/CD pipelines generate attestations for approvals
+* CI/CD pipelines generate attestations for [Kosli approvals](https://docs.kosli.com/getting_started/approvals/)

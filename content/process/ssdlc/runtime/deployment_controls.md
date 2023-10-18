@@ -12,7 +12,12 @@ rationale: Ensuring only compliant, approved software deployments are made to pr
 
 We use deployment controls to automatically ensure we only deploy software that
 has gone through our Software Development Lifecycle.  This can be implemented as
-a gate in the pipeline, or as an admission control in the environment (ideally
+a gate in the pipeline, or as an admission controller in the environment (ideally
 both).
 
 {{< figure src="/images/deployment-controls.svg" alt="Deployment Controls" >}}
+
+## How we implement this control
+
+* We use [Kosli's assert artifact command](https://docs.kosli.com/client_reference/kosli_assert_artifact/) prior to deployment
+* We use [Kosli's environment monitoring]({{< ref "workload_monitoring.md" >}}) to alert on non-compliant workloads
