@@ -10,6 +10,7 @@ title = "Kosli's Software Development Lifecycle"
   company = 'Kosli'
   csor = 'Kosli'
   vcs = 'git'
+  gitProvider = 'github'
   vcsHost = 'github'
   forkLink = 'https://github.com/kosli-dev/devopsctl/fork'
   logo = 'svg/logo.svg'
