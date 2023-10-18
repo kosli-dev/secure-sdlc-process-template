@@ -1,7 +1,7 @@
 ---
 title: Artifact Binary Provenance
 weight: 1
-tldr: Every software running production has known provenance
+tldr: Every software running in a production system has known provenance
 rationale: High security environment require a tamper-proof identity scheme. The use of Content Addressable Storage mechanisms ensures that if software changes it will have a different identity.
 risks:
  - supply-chain
@@ -15,7 +15,7 @@ level: 1
 ## Background
 To define software identity, you use the cryptographic hash of the software itself. We use the SHA256 digest of the sofware binary.
 
-This means that if a single byte in the software changes it will have a different identity.
+This means that if a single byte in the software changes it will have a different identity.  This ensures we can't qualify one software artifact and deploy a different one.  It also allows us to create a provable chain of custody from commit to build to production.
 
 {{< figure src="/images/binary-provenance.svg" alt="Binary Provenance" >}}
 
@@ -36,3 +36,7 @@ It can be helpful to use human-friendly identites in CI displays, filenames, and
 These are very useful ways for humans to navigate identity through version control and CI systems. However, since they are fallible, they cannot be used to identify software in the security and compliance areas.
 
 Use labels for humans and SHAs for machines.
+
+## How we implement this control
+
+We use Kosli to record every official build in our CI system.  The audit trails for our binary provenance can be found here: https://app.kosli.com/kosli/flows/
