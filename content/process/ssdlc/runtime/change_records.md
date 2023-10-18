@@ -14,3 +14,8 @@ rationale: To meet our change management requirements, all changes to production
 The deployment steps in our pipelines automatically log all deployments, and we can also control that we only deploy software that is approved in the {{% param "csor"  %}} audit trail.
 
 {{< figure src="/images/change-records.svg" alt="Change records" >}}
+
+## How we implement this control
+
+* We monitor production systems and automatically record a forensic history of all changes in Kosli using [environment monitoring](https://docs.kosli.com/getting_started/environments/)
+    * Environment records can be found here: https://app.kosli.com/kosli/environments/
