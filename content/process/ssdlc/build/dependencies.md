@@ -11,8 +11,6 @@ level: 1
 
 ## Background
 
-
-
 Key points:
 
 * You must have control over what dependencies are packaged in your software
@@ -29,3 +27,12 @@ During build, these inputs to the build package can be recorded as the software
 bill-of-materials while recording
 [binary provenance]({{< relref "/process/ssdlc/build/binary_provenance" >}})
 
+## How we implement this control
+
+We define these dependencies in the source code, at the application level and if relevent, at the Docker image level.
+
+| Application | Dependencies |
+| ----------- | ------------ |
+| CLI | [Golang Dependencies](https://github.com/kosli-dev/cli/blob/main/go.mod) |
+| Server | [Python Dependencies](https://github.com/kosli-dev/server/blob/master/src/requirements.txt) <br/> [Docker Dependencies](https://github.com/kosli-dev/server/blob/master/Dockerfile) |
+| Slack Application | [Python Dependencies](https://github.com/kosli-dev/slack-auth-app/blob/main/src/requirements.txt) <br/> [Docker Dependencies](https://github.com/kosli-dev/slack-auth-app/blob/main/Dockerfile) |
