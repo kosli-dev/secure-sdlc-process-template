@@ -7,8 +7,8 @@ title = "Kosli's Software Development Lifecycle"
   level = 'levels'
 
 [params]
-  company = 'AcmePay'
-  csor = 'a compliance system of record'
+  company = 'Kosli'
+  csor = 'Kosli'
   vcs = 'git'
   vcsHost = 'github'
   forkLink = 'https://github.com/kosli-dev/devopsctl/fork'
