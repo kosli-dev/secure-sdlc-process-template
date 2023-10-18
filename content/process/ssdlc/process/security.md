@@ -26,3 +26,12 @@ remedial actions.
 * Implement security scanning in the pipeline
 * Act in a timely manner to security issues
 * Consider security concerns in code reviews and software design
+
+## How we implement this control
+
+* We use [snyk](https://snyk.io/) to scan code and dependencies in our CI/CD pipelines
+* We record snyk scans in Kosli and control/monitor that no artifact with missing and/or failed snyk scans run in production
+
+While not mandatory for our process, we additionally:
+
+* Run continuous nightly snky scans on containers in production in case new vulnerabilities are found in running assets
