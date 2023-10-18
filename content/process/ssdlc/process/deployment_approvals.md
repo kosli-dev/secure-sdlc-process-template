@@ -25,3 +25,6 @@ lifecycle.  Its purpose is to ensure that risks around change are managed and
 that change is an active decisions.
 
 In highly sensitive software systems, more than one approver may be required.
+
+## How we implement this control
+

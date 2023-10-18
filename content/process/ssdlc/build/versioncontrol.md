@@ -11,6 +11,7 @@ rationale: Version control allows us to track and manage changes to our software
 ## Background
 We use {{< param "vcs"  >}} to manage versioning for software development source code.  For repository hosting and user management we use {{< param "vcsHost"  >}}.
 
+## How we implement this control
 
 ## Branching Strategies
 
