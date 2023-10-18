@@ -21,3 +21,8 @@ version control.
 You can learn more about build security levels defined in the [slsa specification](https://slsa.dev/spec/v0.1/requirements#scripted-build).
 {{< /hint >}}
 
+## How we implement this control
+
+* Our officical builds occur in Github pipelines defined as code
+* Each step runs in an immutable container
+* Each build fingerprint is stored using [Binary Provenance]({{< ref "binary_provenance.md" >}})
