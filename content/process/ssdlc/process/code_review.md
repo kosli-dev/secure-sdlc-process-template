@@ -38,3 +38,4 @@ Note: the reviewer should not be the person who pushes the last commit on the br
 * We prefer real time reviews with pair or ensemble programming
 * We use pull requests to document reviews in github
 * We protect the `main` branch in each repository
+* We record the pull requests in Kosli and control/monitor that no runtime workload is missing PR attestations
