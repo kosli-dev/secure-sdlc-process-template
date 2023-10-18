@@ -28,3 +28,7 @@ In highly sensitive software systems, more than one approver may be required.
 
 ## How we implement this control
 
+Deployment approvals are
+
+* We use git tags to trigger and record deployment approvals
+* CI/CD pipelines generate attestations for approvals

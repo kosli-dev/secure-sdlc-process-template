@@ -34,4 +34,4 @@ remedial actions.
 
 While not mandatory for our process, we additionally:
 
-* Run continuous nightly snky scans on containers in production in case new vulnerabilities are found in running assets
+* Run continuous nightly snyk scans on containers in production in case new vulnerabilities are found in running assets
