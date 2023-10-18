@@ -13,6 +13,8 @@ We use {{< param "vcs"  >}} to manage versioning for software development source
 
 ## How we implement this control
 
+Our git repositories can be found here: https://github.com/kosli-dev
+
 ## Branching Strategies
 
 Every service will follow one of the following branching strategies:
