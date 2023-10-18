@@ -1,6 +1,7 @@
 baseURL = "https://devopsctl.com/"
 languageCode = "en-us"
 title = "DevOps Control Framework"
+theme = "hugo-book"
 
 [taxonomies]
   risk = 'risks'
