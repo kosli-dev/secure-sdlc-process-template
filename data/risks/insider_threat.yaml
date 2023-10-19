@@ -7,5 +7,5 @@ risk:
     hreftext: "Code Review"
   - hreflink: "/process/ssdlc/process/deployment_approvals/"
     hreftext: "Deployment Approvals"
-  - hreflink: "/process/ssdlc/process/workload_monitoring/"
+  - hreflink: "/process/ssdlc/runtime/workload_monitoring/"
     hreftext: "Workload Monitoring"
