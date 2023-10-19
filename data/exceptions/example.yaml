@@ -1,5 +1,5 @@
 exception:
-  service: build-logrotate
-  owner: platform team
-  description: Does not use code reviews
-  rationale: This code is never ran in production systems
+  service: example-service
+  owner: Tech team
+  description: This is an example exemption
+  rationale: "Example rationale: this code is never ran in production systems"

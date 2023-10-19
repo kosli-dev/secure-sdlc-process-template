@@ -5,7 +5,7 @@
     <ul>
       {{ range .root.risk.mitigations }}
         <li>
-            {{ . }}:
+          <a href={{ .hreflink }}>{{ .hreftext }}</a>
         </li>
 
       {{ end }}

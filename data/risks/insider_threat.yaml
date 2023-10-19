@@ -3,6 +3,9 @@ risk:
   display_name: Insider Threat
   description: Someone inside the company acts against the best intests
   mitigations:
-  - code_review
-  - deployment_approvals
-  - workload_monitoring
+  - hreflink: "/process/ssdlc/process/code_review/"
+    hreftext: "Code Review"
+  - hreflink: "/process/ssdlc/process/deployment_approvals/"
+    hreftext: "Deployment Approvals"
+  - hreflink: "/process/ssdlc/process/workload_monitoring/"
+    hreftext: "Workload Monitoring"
