@@ -3,5 +3,5 @@ risk:
   display_name: Environment Breach
   description: External attacker running workloads in our system
   mitigations:
-  - hreflink: "http://localhost:1313/process/ssdlc/runtime/workload_monitoring/"
-    hreftext: "Kosli’s environment monitoring"
+  - hreflink: "/process/ssdlc/runtime/workload_monitoring/"
+    hreftext: "Workload monitoring"
