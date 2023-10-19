@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 5
 bookFlatSection: false
 title: "Training"
 ---

@@ -1,13 +1,13 @@
+<h2>{{ .root.risk.display_name }}</h2>
 <ul>
-    <li>{{ .root.risk.display_name }}</li>
-    <li>Description: {{ .root.risk.description }}</li>
-    <li>Mitigations: </li>
-    <ul>
+  <li>Description: {{ .root.risk.description }}</li>
+  <li>Mitigations: </li>
+  <ul>
       {{ range .root.risk.mitigations }}
         <li>
           <a href={{ .hreflink }}>{{ .hreftext }}</a>
         </li>
 
       {{ end }}
-    </ul>
+  </ul>
 </ul>
