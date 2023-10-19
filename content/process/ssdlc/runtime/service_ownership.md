@@ -19,3 +19,8 @@ landscapes:
 * **Audit**: who is reponsible that the SDLC is followed for this service?
 
 {{< figure src="/images/secrets-management.svg" alt="Change Records" >}}
+
+## How we implement this control
+
+At this stage, as we have a relatively simple system and a single tech team, simply recording the services in [Kosli's environment monitoring]({{< ref "workload_monitoring.md" >}}) meets this need.
+
