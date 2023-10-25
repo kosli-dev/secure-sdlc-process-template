@@ -18,7 +18,7 @@ their own changes without approval from someone who both:
 * Understands what is changing
 * Accepts the risk of the change
 
-{{< figure src="/images/deployment-approvals.svg" alt="Deployment Approvals" >}}
+{{< figure src="/sdlctemplate/images/deployment-approvals.svg" alt="Deployment Approvals" >}}
 
 Deployment approval controls form a key role in the secure software development
 lifecycle.  Its purpose is to ensure that risks around change are managed and

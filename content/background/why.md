@@ -15,7 +15,7 @@ and the applicable law is the
 
 In other countries the laws and regulations differ, but the principle is
 internationally followed.
-{{< figure src="/images/regulations.svg" alt="Governing Context" >}}
+{{< figure src="/sdlctemplate/images/regulations.svg" alt="Governing Context" >}}
 
 {{< hint info >}}
 ### Risk Management
@@ -34,7 +34,7 @@ Essentially, we must:
 2. *Implement*: Actually follow this process in our daily work
 3. *Prove*: Have the proof that we conform to the process during audit
 
-{{< figure src="/images/governance.svg" alt="Governance Framework" >}}
+{{< figure src="/sdlctemplate/images/governance.svg" alt="Governance Framework" >}}
 
 ## What should be in a SSDLC process?
 

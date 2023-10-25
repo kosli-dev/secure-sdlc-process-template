@@ -15,7 +15,7 @@ recommend teams use immutable docker images to define the build environment.
 This enables auditing of the build environment, as well as security scanning and
 version control.
 
-{{< figure src="/images/defined-toolchain.svg" alt="Toolchain" >}}
+{{< figure src="/sdlctemplate/images/defined-toolchain.svg" alt="Toolchain" >}}
 
 {{< hint info >}}
 You can learn more about build security levels defined in the [slsa specification](https://slsa.dev/spec/v0.1/requirements#scripted-build).
