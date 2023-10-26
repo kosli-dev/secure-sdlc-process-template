@@ -15,4 +15,4 @@ has gone through our Software Development Lifecycle.  This can be implemented as
 a gate in the pipeline, or as an admission control in the environment (ideally
 both).
 
-{{< figure src="/sdlctemplate/images/deployment-controls.svg" alt="Deployment Controls" >}}
+{{< figure src="/images/deployment-controls.svg" alt="Deployment Controls" >}}

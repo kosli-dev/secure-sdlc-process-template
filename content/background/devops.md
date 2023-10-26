@@ -9,7 +9,7 @@ title: DevOps Compliance Culture
 
 The way we build and deliver software has changed significantly over the years.  In the past, we would build systems on large, custom managed hardware.  Organizations were siloed by specialty, with different departments for analysis, development, quality assurance, and operations.  Software was delivered in releases, once a year, or once a quarter even.  Change was rare, risky, and large.
 
-{{< figure src="/sdlctemplate/images/changes-over-time.svg" alt="Software Landscape" >}}
+{{< figure src="/images/changes-over-time.svg" alt="Software Landscape" >}}
 
 Over time, we have favoured smaller services-oriented architectures and independently deployable systems.  This allowed for more dynamic and resillient designs, and to leverage Conway's Law to organize our teams around these services.
 
@@ -19,7 +19,7 @@ This trend continues, with the rising adoption of serverless features and functi
 
 Traditionally, it was the IT department who were responsible for changing IT systems, and the volume of changes was relatively low.  This also meant that the responsibility of meeting these regulatory obligations rested with the IT department.
 
-{{< figure src="/sdlctemplate/images/value-stream.svg" alt="Value Stream" >}}
+{{< figure src="/images/value-stream.svg" alt="Value Stream" >}}
 
 ## The Compliance Bottleneck
 Conventional Change Management approaches in regulated industries have been IT-led, such as [ITIL practices](https://en.wikipedia.org/wiki/ITIL), change tickets, [Change Advisory Board meetings](https://en.wikipedia.org/wiki/Change-advisory_board), and scheduled changes.  However, these processes were designed for infrequent changes and causes delays and batching changes.  Somewhat counter-intuitively, these practices designed to reduce risk actually lead to increased delivery risks.
@@ -34,7 +34,7 @@ To learn more about this, look into the findings from UK's Financial Conduct Aut
 
 Modern technology organizations are organized differently.  The traditional separation between Software Development, Quality Assurance, and IT Operations has been replaced by cross-functional devops teams responsible for the entire value stream of software systems.  This new DevOps approach allows organizations to reduce handovers, increase collaboration, and ultimately deliver more innovation.
 
-{{< figure src="/sdlctemplate/images/collective-ownership.svg" alt="Collective Ownership" >}}
+{{< figure src="/images/collective-ownership.svg" alt="Collective Ownership" >}}
 
 As organizations change, the supporting technology approaches also change.  Companies are adopting metered cloud infrastructure as a service, automated build, test and security tooling.  With the support of this automated devops delivery, high performing teams can deliver changes 973 times[^1] more frequently than traditional teams.
 If we need to be compliant, but external approvals and management don't work, what should we do?

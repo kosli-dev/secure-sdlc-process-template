@@ -13,4 +13,4 @@ rationale: To meet our change management requirements, all changes to production
 
 The deployment steps in our pipelines automatically log all deployments, and we can also control that we only deploy software that is approved in the {{% param "csor"  %}} audit trail.
 
-{{< figure src="/sdlctemplate/images/change-records.svg" alt="Change records" >}}
+{{< figure src="/images/change-records.svg" alt="Change records" >}}

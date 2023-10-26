@@ -14,4 +14,4 @@ rationale: Leaked secrets such as api keys, cryptography keys, identity tokens
 Secrets must be stored in a secure way, and a documented in a central place.
 [Cryptographic failures are the second highest risk in the OWASP top ten](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/) so rigor and process is essential.
 
-{{< figure src="/sdlctemplate/images/secrets-management.svg" alt="Change Records" >}}
+{{< figure src="/images/secrets-management.svg" alt="Change Records" >}}

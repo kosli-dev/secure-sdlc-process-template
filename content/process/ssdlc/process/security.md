@@ -11,7 +11,7 @@ rationale: Many common security vulnerabilities can be detected with automated t
 
 ## Background
 
-<img src="/sdlctemplate/images/magnifyingglass.png" width="200"/>
+{{< figure src="/images/magnifyingglass.png" alt="Magnifying glass" width="200">}}
 
 Vulnerability scanning is the automated process of proactively identifying
 software vulnerabilities in software.  Many common security attacks such as

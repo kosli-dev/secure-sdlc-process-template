@@ -10,7 +10,7 @@ title: "Software Process"
 This is the Secure Software Development Lifecycle for {{< param "company"  >}}
 
 {{< columns >}}
-{{< figure src="/sdlctemplate/images/padlock.svg" alt="DevOps Compliance Framework" >}}
+{{< figure src="/images/padlock.svg" alt="DevOps Compliance Framework" >}}
 <--->
 The DevSecOps Framework defines the capabilities in a secure DevOps landscape.
 

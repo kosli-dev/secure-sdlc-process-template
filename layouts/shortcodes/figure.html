@@ -1,0 +1,8 @@
+<figure>
+    <img
+        src="{{ .Site.BaseURL}}/{{ .Get "src" }}"
+        alt="{{ .Get "alt" }}"
+        {{ with .Get "width" }}width="{{ . }}"{{ end }}
+        {{ with .Get "class" }}class="{{ . }}"{{ end }}
+    >
+</figure>
