@@ -1,4 +1,4 @@
-baseURL = "https://kosli.com/sdlctemplate"
+baseURL = "https://kosli.com/sdlc-template"
 languageCode = "en-us"
 title = "DevOps Control Framework"
 theme = "hugo-book"
