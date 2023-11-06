@@ -4,15 +4,15 @@ title: Introduction
 bookToC: true
 ---
 
-{{< figure src="/images/hero-home.svg" alt="Devops Control Framework">}}
-# The DevOps Control Framework
+{{< figure src="/images/hero-home.svg" alt="Secure SDLC Process Template">}}
+# The Secure SDLC Process Template
 
 {{< columns >}}
 {{< figure src="/images/devops-values.svg" alt="DevOps Values" >}}
 
 ## DevOps Values
 
-The DevOps Control Framework is a defined secure software development process
+The Secure SDLC Process Template is a defined secure software development process
 with **DevOps Culture** at it's heart.
 
 <--->

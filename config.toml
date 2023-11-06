@@ -1,6 +1,6 @@
 baseURL = "https://kosli.com/sdlc-template"
 languageCode = "en-us"
-title = "DevOps Control Framework"
+title = "Secure SDLC Process Template"
 theme = "hugo-book"
 
 [taxonomies]
