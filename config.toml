@@ -1,4 +1,4 @@
-baseURL = "https://kosli.com/sdlc-template"
+baseURL = "https://kosli.com/secure-sdlc-process-template/"
 languageCode = "en-us"
 title = "Secure SDLC Process Template"
 theme = "hugo-book"
