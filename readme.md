@@ -1,4 +1,4 @@
-# The DevOps Compliance Framework
+# The SEcure SDLC process template
 
 
 ## Running locally
