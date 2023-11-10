@@ -2,7 +2,7 @@
 weight: 10
 title: Why do you need a process?
 ---
-# Why does {{% param "company"  %}} need a software process?
+# Who needs to define a software process?
 
 Regulated software companies like banks, fintechs, healthcare providers, 
 medical device manufacturers, etc. need to comply with government legislation 
