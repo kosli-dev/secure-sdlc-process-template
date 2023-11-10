@@ -4,18 +4,19 @@ title: Why do you need a process?
 ---
 # Why does {{% param "company"  %}} need a software process?
 
-Regulated organizations such as banks, insurance companies, and payment
-platforms obtain their license to operate from a government authority.   As a
-critical element of the country's economy, and also to protect consumers, these
-organizations are required by law to manage various **operational risks** in their
-use of information technology.  For example, in Norway this regulating authority
-is [Finanstilsynet](https://www.finanstilsynet.no/),
-and the applicable law is the
-[IKT forskrift](https://lovdata.no/dokument/SF/forskrift/2003-05-21-630).
+Regulated software companies like banks, fintechs, healthcare providers, 
+medical device manufacturers, etc. need to comply with government legislation 
+and/or industry standards (IEC 62304, ISO26262, NIST, FDA, etc.) before they 
+can take products to market and sell to customers. 
 
-In other countries the laws and regulations differ, but the principle is
-internationally followed.
-{{< figure src="/images/regulations.svg" alt="Governing Context" >}}
+Many non-regulated companies also choose to opt-in to standards 
+like SOC2 and ISO27001 to win the confidence of their customers.  
+
+To achieve compliance with any of these regulations and standards 
+involves defining a software delivery process, implementing it, 
+and then proving that the process is being followed. 
+
+This is why you need a software process. 
 
 {{< hint info >}}
 ### Risk Management
