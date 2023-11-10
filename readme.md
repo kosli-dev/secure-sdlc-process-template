@@ -8,4 +8,4 @@ This template will satisfy the software delivery aspect of an industry standard 
 
 As an example, we recently forked this repo ourselves as part of our SOC2 process. You can see what that looks like over here https://sdlc.kosli.com/
 
-Lastly, if you're interested in discovering how to automate the proof that you're following your SDLC - gathering evidence for test and scans and stuff - head over to Kosli.com 
+Lastly, if you're interested in discovering how to automate the proof that you're following your SDLC - gathering evidence for test and scans and stuff - head over to https://www.kosli.com/
