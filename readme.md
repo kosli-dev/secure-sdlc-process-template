@@ -1,4 +1,4 @@
-# The Secure SDLC process template
+# Secure SDLC process template
 
 
 ## Running locally
