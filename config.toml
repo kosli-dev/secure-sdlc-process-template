@@ -1,6 +1,6 @@
 baseURL = "https://kosli.com/secure-sdlc-process-template/"
 languageCode = "en-us"
-title = "Secure SDLC Process Template"
+title = "The Secure SDLC Process Template"
 theme = "hugo-book"
 
 [taxonomies]
