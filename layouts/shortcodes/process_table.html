@@ -1,0 +1,29 @@
+{{ $sdlc_build := site.GetPage "/process/ssdlc/build" }}
+<h3>Build</h3>
+<ul>
+  {{ range $sdlc_build.RegularPages }}
+    <li>
+      {{ .Title }}
+    </li>
+  {{ end }}
+</ul>
+
+{{ $sdlc_process := site.GetPage "/process/ssdlc/process" }}
+<h3>Process</h3>
+<ul>
+  {{ range $sdlc_process.RegularPages }}
+    <li>
+      {{ .Title }}
+    </li>
+  {{ end }}
+</ul>
+
+{{ $sdlc_runtime := site.GetPage "/process/ssdlc/runtime" }}
+<h3>Runtime</h3>
+<ul>
+  {{ range $sdlc_runtime.RegularPages }}
+    <li>
+      {{ .Title }}
+    </li>
+  {{ end }}
+</ul>
