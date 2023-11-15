@@ -1,6 +1,6 @@
 # Secure SDLC process template
 
-Tl;dr if you are struggling to define a software delivery process, or you're not really sure what to do, or it just feels like a bunch of hassle and you just want an easy button for a generic SDLC - fork this repo. 
+**Tl;dr if you are struggling to define a software delivery process, or you're not really sure what to do, or it just feels like a bunch of hassle and you just want an easy button for a generic SDLC - fork this repo.**
 
 The secure SDLC process template is an open source definition of a software delivery process. You can fork this template to satisfy the software delivery aspect of an industry standard.
 
