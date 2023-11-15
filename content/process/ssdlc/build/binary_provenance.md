@@ -36,3 +36,6 @@ It can be helpful to use human-friendly identites in CI displays, filenames, and
 These are very useful ways for humans to navigate identity through version control and CI systems. However, since they are fallible, they cannot be used to identify software in the security and compliance areas.
 
 Use labels for humans and SHAs for machines.
+
+## Further reading
+* [How to secure your software supply chain with artifact binary provenance](https://www.kosli.com/blog/how-to-secure-your-software-supply-chain-with-artifact-binary-provenance/)
