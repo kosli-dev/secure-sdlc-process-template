@@ -87,23 +87,33 @@ In the next section we will show you how to fork this repo and use these buildin
 **Secure Build**
 
 Artifact Binary Provenance
+
 Version Control
+
 Defined Toolchain
+
 Dependency Management
 
 **Secure Process**
 
 Code Review
+
 Quality Assurance
+
 Security Vulnerability Scanning
+
 Deployment Approvals
 
 **Secure Runtime**
 
 Change Records
+
 Deployment Controls
+
 Secrets Management
+
 Service ownership
+
 Workload Monitoring
 
 ## How to use the secure SDLC process template
