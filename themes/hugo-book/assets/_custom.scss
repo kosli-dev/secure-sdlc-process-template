@@ -2,23 +2,32 @@
 
 // @import "plugins/numbered";
 
-header {
+.main-header {
     background-color: var(--header-color);
-    height: $header-height;
     color: white;
+
+    a {
+        color: #fff;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 
     .container {
         height: 100%;
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+        padding: 1rem;
+        flex-wrap: wrap;
 
         .logo {
-            height: 100%;
-            padding: 2rem 0;
+            padding: 1rem 0;
 
             img {
-                height: 100%;
+                height: 2rem;
+                max-width: 100%;
             }
         }
     }
@@ -87,6 +96,7 @@ header {
     border-radius: $border-radius;
     color: #ffffff;
     padding: 1rem 2rem;
+    white-space: nowrap;
 }
 
 body {
@@ -155,5 +165,12 @@ ul.hlist {
     }
     h2 {
         font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .header-right {
+        display: none;
     }
 }
