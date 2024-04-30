@@ -22,7 +22,7 @@ Compliance with these regulations and/or standards requires you to define, imple
 
 This template is designed to help you define your process. You are welcome to fork it and start making it your own. There are guidelines for how to proceed with this further down.
 
-## What do regulations and standards mean for the SLDC?
+## What do regulations and standards mean for the SDLC?
 
 It doesn’t really matter which industry you’re in, or which standard you’re going for, the demand for change management in the SDLC is basically the same - prove you’re following a process. 
 
