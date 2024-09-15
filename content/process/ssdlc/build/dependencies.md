@@ -1,6 +1,8 @@
 ---
 title: Dependency Management
 weight: 20
+areas: 
+ - build
 tldr: Every dependency is defined securely, managed, and auditable
 rationale: Inputs to the build process can introduce security and quality issues, and as such must be defined, controlled, and transparent as part of the software development lifecycle.
 level: 1

@@ -1,0 +1,55 @@
+
+{{ range .Site.Taxonomies }} 
+  {{ . }}
+{{ end}}<br><hr/>
+
+{{ with .Site.Taxonomies }}
+  {{ $numberOfTerms := 0 }}
+  {{ range $taxonomy, $terms := . }}
+    {{ if eq $taxonomy "areas" }}
+      {{ $numberOfTerms = len . | add $numberOfTerms }}
+    {{ end }}
+  {{ end }}
+  
+
+
+  {{ if gt $numberOfTerms 0 }}
+      {{ range $taxonomy, $terms := . }}
+        {{ if eq $taxonomy "areas" }}
+          {{ with $terms }}
+
+                {{ . }} <br><hr/>
+                
+                {{ range $term, $weightedPages := . }}
+                  <h2 class="area-header">
+                    <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>  <!-- Area  (e.g. "Build")-->
+                  </h2>
+                  <div class="card-row">
+                  
+                    {{ range $index, $page := $weightedPages }}
+                      <a href="{{ .RelPermalink }}">
+                        <div class="control-card area-{{ $term }} card-index-{{ $index }}">
+                          {{ .LinkTitle }}      <!-- Control  (e.g. "Code Review")-->
+                        </div>
+                      </a>
+                    {{ end }}
+
+                  </div>
+                {{ end }} 
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+  {{ end }}
+{{ end }}
+
+
+<hr/>
+
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Data.Terms.Alphabetical }}
+    <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})</h2>
+  {{ end }}
+{{ end }}

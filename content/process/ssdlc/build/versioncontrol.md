@@ -2,6 +2,8 @@
 title: Version Control
 weight: 1
 level: 1
+areas: 
+ - build
 tldr: Every change to the source is tracked in a version control system
 rationale: Version control allows us to track and manage changes to our software code.  As a traceability system, it provides a means to understand how our software changes, who changes it, and why it was changed.
 ---

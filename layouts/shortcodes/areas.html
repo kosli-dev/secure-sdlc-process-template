@@ -1,0 +1,39 @@
+
+{{ with .Site.Taxonomies }}
+  {{ $numberOfTerms := 0 }}
+  {{ range $taxonomy, $terms := . }}
+    {{ if eq $taxonomy "areas" }}
+      {{ $numberOfTerms = len . | add $numberOfTerms }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt $numberOfTerms 0 }}
+    <div class="book-columns flex flex-wrap">
+      {{ range $taxonomy, $terms := . }}
+        {{ if eq $taxonomy "areas" }}
+          {{ with $terms }}
+              
+                {{ range $term, $weightedPages := . }}
+                  <div class="flex-even markdown-inner">
+                  
+                    <h2>
+                        <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>  <!-- Area  (e.g. "Build")-->
+                    </h2>
+                    <ul class="control-list">
+                      {{ range $weightedPages }}
+                        <li >
+                          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>      <!-- Control  (e.g. "Code Review")-->
+                        </li>
+                      {{ end }}
+                    </ul>
+                  
+                  </div>
+                {{ end }}
+            
+        
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

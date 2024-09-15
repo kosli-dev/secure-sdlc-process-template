@@ -5,6 +5,8 @@ weight: 30
 tldr: Build and runtime secrets are stored securely and documented appropriately
 rationale: Leaked secrets such as api keys, cryptography keys, identity tokens
   are a common attack scenario.
+areas: 
+ - change
 ---
 # {{% param "title" %}}
 {{< area_head >}}
