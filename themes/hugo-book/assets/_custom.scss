@@ -189,6 +189,8 @@ h2.area-header{
     margin-top: 1em;
 }
 
+
+
 .control-card.card-index-0 {
     margin-left: 0px;   
 }
@@ -269,4 +271,10 @@ h2.area-header{
 .control-card.area-change.card-index-4 {
     background-color:  var(--red-100);
     border-color: var(--red-100);
+}
+
+
+div.control-card:hover {
+    background-color: var(--blue-500) !important;
+    border-color: var(--blue-500) !important;
 }
