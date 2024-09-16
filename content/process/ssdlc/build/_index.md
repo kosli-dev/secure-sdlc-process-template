@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: Secure Build
+title: Secure Builds
 bookCollapseSection: false
 bookFlatSection: true
 ---
