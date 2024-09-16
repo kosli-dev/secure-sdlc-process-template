@@ -4,3 +4,5 @@ bookFlatSection: false
 bookCollapseSection: true
 title: "Requirements"
 ---
+
+{{< areas >}}
