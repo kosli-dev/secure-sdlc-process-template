@@ -13,7 +13,7 @@ theme = "hugo-book"
   vcs = 'git'
   gitProvider = 'github'
   vcsHost = 'github'
-  forkLink = 'https://github.com/kosli-dev/devopsctl/fork'
+  repoLink = 'https://github.com/kosli-dev/kosli-sdlc'
   logo = 'svg/logo.svg'
   BookSection = '/'
 
