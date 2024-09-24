@@ -21,4 +21,3 @@ The DevSecOps Framework provides:
 
 {{< /columns >}}
 
-{{< areas >}}
