@@ -21,10 +21,8 @@
                     {{ if eq $area $term }}
                       <div class="card-row">
                       {{ range $index, $card := $cards }}
-                        <a href="{{ .RelPermalink }}">
-                          <div class="control-card area-{{ $term }} card-index-{{ $index }}">
-                            {{ .LinkTitle }}      <!-- Control  (e.g. "Code Review")-->
-                          </div>
+                        <a class="control-card area-{{ $term }} card-index-{{ $index }}" href="{{ .RelPermalink }}">
+                          {{ .LinkTitle }}      <!-- Control  (e.g. "Code Review")-->
                         </a>
                       {{ end }}
                       </div>
