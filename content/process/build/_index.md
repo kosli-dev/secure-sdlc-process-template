@@ -1,6 +1,7 @@
 ---
-weight: 30
-title: Secure Runtime
+weight: 10
+title: Secure Builds
 bookCollapseSection: false
 bookFlatSection: true
 ---
+

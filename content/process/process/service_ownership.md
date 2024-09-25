@@ -5,6 +5,8 @@ weight: 40
 tldr: All services running in our environments have registered ownership
 rationale: In a diverse software landscape it is essential everyone knows who
   is responsible for maintaince and support
+areas: 
+ - process
 ---
 # {{% param "title" %}}
 {{< area_head >}}

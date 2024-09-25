@@ -4,6 +4,8 @@ level: 1
 weight: 50
 tldr: Infrastructure and Configurations are defined "as code" and applied through automation
 rationale: Software defined cloud infrastructure allows auditability, reproducibility and drift detection
+areas: 
+ - build
 ---
 
 # {{% param "title" %}}

@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: Secure Process
+title: Secure Processes
 bookCollapseSection: false
 bookFlatSection: true
 ---

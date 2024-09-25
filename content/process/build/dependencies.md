@@ -1,6 +1,8 @@
 ---
 title: Dependency Management
 weight: 20
+areas: 
+ - build
 tldr: Every dependency is defined securely, managed, and auditable
 rationale: Inputs to the build process can introduce security and quality issues, and as such must be defined, controlled, and transparent as part of the software development lifecycle.
 level: 1
@@ -25,7 +27,7 @@ source code.
 
 During build, these inputs to the build package can be recorded as the software
 bill-of-materials while recording
-[binary provenance]({{< relref "/process/ssdlc/build/binary_provenance" >}})
+[binary provenance]({{< relref "/process/build/binary_provenance" >}})
 
 ## How we implement this control
 

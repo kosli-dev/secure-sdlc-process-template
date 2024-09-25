@@ -4,6 +4,8 @@ level: 1
 weight: 20
 tldr: Deployments controls are enforced in the pipeline and environments
 rationale: Ensuring only compliant, approved software deployments are made to production
+areas: 
+ - change
 ---
 # {{% param "title" %}}
 {{< area_head >}}

@@ -4,6 +4,8 @@ level: 1
 weight: 50
 tldr: Workloads are monitored to alert if any non-compliant or unauthorized change is discovered
 rationale: Real-time closed-loop compliance monitoring is a constant vigil against threats
+areas: 
+ - change
 ---
 
 # {{% param "title" %}}

@@ -20,3 +20,4 @@ The DevSecOps Framework provides:
 * A clear roadmap for a security-based devops implementation
 
 {{< /columns >}}
+

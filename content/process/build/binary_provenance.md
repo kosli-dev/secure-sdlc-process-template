@@ -1,6 +1,8 @@
 ---
 title: Artifact Binary Provenance
 weight: 1
+areas: 
+ - build
 tldr: Every software running in a production system has known provenance
 rationale: High security environment require a tamper-proof identity scheme. The use of Content Addressable Storage mechanisms ensures that if software changes it will have a different identity.
 risks:

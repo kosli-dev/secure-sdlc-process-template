@@ -2,6 +2,8 @@
 title: Version Control
 weight: 1
 level: 1
+areas: 
+ - build
 tldr: Every change to the source is tracked in a version control system
 rationale: Version control allows us to track and manage changes to our software code.  As a traceability system, it provides a means to understand how our software changes, who changes it, and why it was changed.
 ---
@@ -32,7 +34,7 @@ This branching strategy uses a combination of feature branches with pull request
 
 * Main branch is protected
 * Pull requests must be approved before merge to the main branch.
-* We use pull requests to enforce and document our code review process.  You can read more about it here: [Code Review Process]({{< relref "/process/ssdlc/process/code_review" >}})
+* We use pull requests to enforce and document our code review process.  You can read more about it here: [Code Review Process]({{< relref "/process/process/code_review" >}})
 * Pull request merges should create merge or squash commits. (no fast-forward)
 
 

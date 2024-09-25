@@ -4,6 +4,8 @@ level: 1
 weight: 50
 tldr: All access to runtime environments requires authentication and audit trails
 rationale: To meet our system access control policy, all access must be approved and auditable
+areas: 
+ - change
 ---
 
 # {{% param "title" %}}

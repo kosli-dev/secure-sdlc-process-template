@@ -1,0 +1,40 @@
+
+
+{{ range $taxonomy_name, $taxonomy := .Site.Taxonomies }}
+	{{ if (eq $taxonomy_name "areas") }}  <!-- For each area -->
+
+					{{ with ($.Site.GetPage (printf "/%s" $taxonomy_name)) }}			
+						{{ range $index, $weightedArea:= .Pages.ByWeight }}  <!-- iterate by area weight -->
+              
+              <!-- Print area header  (e.g. "Build")-->
+              <h2 class="area-header">
+                {{ .Page.LinkTitle }}
+              </h2>
+
+
+              <!-- capture the term for this area in a variable, i.e. "build"-->
+              {{ $term := .Page.Data.Term }}
+
+              <!-- Print the cards for this area -->
+              {{ with .Site.Taxonomies.areas }}
+                {{ range $area, $cards := . }}
+                    {{ if eq $area $term }}
+                      <div class="card-row">
+                      {{ range $index, $card := $cards }}
+                        <a class="control-card area-{{ $term }} card-index-{{ $index }}" href="{{ .RelPermalink }}">
+                          {{ .LinkTitle }}      <!-- Control  (e.g. "Code Review")-->
+                        </a>
+                      {{ end }}
+                      </div>
+                    {{ end }}
+                {{ end }}
+              {{ end}}
+              
+              <div class="card-row">
+              </div>
+						{{ end }}	
+					{{ end }}
+
+		{{ end }}
+
+{{ end }}

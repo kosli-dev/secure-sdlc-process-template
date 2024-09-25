@@ -4,6 +4,8 @@ level: 1
 weight: 20
 tldr: Functionality of software is assured prior to production
 rationale: Every change has the potential to introduce regressions in functionality.  By testing our software prior to deployment we manage the risk of production issues.
+areas: 
+ - process
 ---
 
 # {{% param "title" %}}
