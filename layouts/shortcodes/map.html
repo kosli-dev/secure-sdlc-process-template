@@ -7,9 +7,11 @@
 						{{ range $index, $weightedArea:= .Pages.ByWeight }}  <!-- iterate by area weight -->
               
               <!-- Print area header  (e.g. "Build")-->
-              <h2 class="area-header">
-                {{ .Page.LinkTitle }}
-              </h2>
+              <a href="/process/{{ .Page.Data.Term }}">
+                <h2 class="area-header">
+                  {{ .Page.LinkTitle }}
+                </h2>
+              </a>
 
 
               <!-- capture the term for this area in a variable, i.e. "build"-->

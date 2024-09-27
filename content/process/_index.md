@@ -5,7 +5,7 @@ bookCollapseSection: true
 title: "Software Process"
 ---
 
-# Introduction
+# Process Areas
 
 This is the Secure Software Development Lifecycle for {{< param "company"  >}}
 
