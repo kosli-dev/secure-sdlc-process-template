@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: Secure Processes
+title: Secure Validation
 bookCollapseSection: false
 bookFlatSection: true
 ---
