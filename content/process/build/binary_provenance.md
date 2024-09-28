@@ -1,6 +1,6 @@
 ---
 title: Artifact Binary Provenance
-weight: 1
+weight: 2
 areas: 
  - build
 tldr: Every software running in a production system has known provenance

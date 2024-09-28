@@ -1,10 +1,10 @@
 ---
-title: Defined Toolchain
+title: Controlled Build Environment
 level: 3
 weight: 20
 areas: 
  - build
-tldr: Build environments must be defined securely and auditable
+tldr: Build environments must be defined as code, ephemeral, and auditable
 rationale: A secure build environment is the foundation for a mitigating software supply chain attacks.  Build environments defined as code protect against interference that can happen in the build and distribution processes.
 ---
 # {{% param "title" %}}
