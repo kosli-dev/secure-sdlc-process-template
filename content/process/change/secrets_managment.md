@@ -47,3 +47,12 @@ about how to get a new secret and how to update them. It also contains
    * When does the secrete expire.
 * In every repository there is a daily GitHub job that checks if any secrete will expire within the next month.
 * If a secrete is going to expire soon a message is sent to our dedicated [slack channel](https://kosli-internal.slack.com/archives/C07P4AUQGHH)
+
+### Check if new secrets has been added
+* Every 3 months we check if any new infrastructure or CI secrets has been added. In the 
+[server repository](https://github.com/kosli-dev/server) there is a `bin/check_new_secrets.sh` script that will do the
+check and tell you if any secrets has been added. 
+* The evidence that we ran check for new secrets are recorded in the
+[secrets-updated](https://app.kosli.com/kosli/flows/secrets-updated/trails/) flow.
+* We have a daily [GitHub job](https://github.com/kosli-dev/server/actions/workflows/check-new-secrets.yml)
+that checks if it is more than three months since last time we checked for new secrets.
