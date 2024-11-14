@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: Secure Build Chain
+title: Build Chain Controls
 bookCollapseSection: false
 bookFlatSection: true
 ---

@@ -2,10 +2,10 @@
 weight: 10
 bookFlatSection: false
 bookCollapseSection: true
-title: "Software Process"
+title: "Controls"
 ---
 
-# Process Areas
+# Controls Areas
 
 This is the Secure Software Development Lifecycle for {{< param "company"  >}}
 

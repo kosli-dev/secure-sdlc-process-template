@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: Secure Validation
+title: Validation Controls
 bookCollapseSection: false
 bookFlatSection: true
 ---

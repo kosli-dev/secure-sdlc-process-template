@@ -1,5 +1,5 @@
 ---
-title: Secure Changes
+title: Change Controls
 wikipedia: https://en.wikipedia.org/wiki/Bruce_Willis
 weight: 300
 ---

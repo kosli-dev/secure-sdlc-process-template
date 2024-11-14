@@ -1,6 +1,6 @@
 ---
 weight: 30
-title: Secure Changes
+title: Change Controls
 bookCollapseSection: false
 bookFlatSection: true
 ---
