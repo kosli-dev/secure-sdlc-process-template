@@ -2,6 +2,7 @@
 title: Secrets Management
 level: 1
 weight: 30
+control_code: KCC3
 tldr: Build and runtime secrets are stored securely and documented appropriately
 rationale: Leaked secrets such as api keys, cryptography keys, identity tokens
   are a common attack scenario.

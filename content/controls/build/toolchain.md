@@ -1,7 +1,8 @@
 ---
 title: Controlled Build Environment
 level: 3
-weight: 20
+weight: 30
+control_code: KBC3
 areas: 
  - build
 tldr: Build environments must be defined as code, ephemeral, and auditable

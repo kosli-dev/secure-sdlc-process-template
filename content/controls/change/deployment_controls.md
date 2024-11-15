@@ -2,6 +2,7 @@
 title: Deployment Controls
 level: 1
 weight: 20
+control_code: KCC2
 tldr: Deployments controls are enforced in the pipeline and environments
 rationale: Ensuring only compliant, approved software deployments are made to production
 areas: 

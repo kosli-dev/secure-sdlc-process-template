@@ -1,6 +1,7 @@
 ---
 title: Version Control
-weight: 1
+weight: 10
+control_code: KBC1
 level: 1
 areas: 
  - build

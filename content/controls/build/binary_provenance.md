@@ -1,6 +1,7 @@
 ---
 title: Artifact Binary Provenance
-weight: 2
+weight: 20
+control_code: KBC2
 areas: 
  - build
 tldr: Every software running in a production system has known provenance

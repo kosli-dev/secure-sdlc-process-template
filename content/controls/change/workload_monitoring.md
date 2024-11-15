@@ -2,6 +2,7 @@
 title: Runtime Workload Monitoring
 level: 1
 weight: 50
+control_code: KCC5
 tldr: Workloads are monitored to alert if any non-compliant or unauthorized change is discovered
 rationale: Real-time closed-loop compliance monitoring is a constant vigil against threats
 areas: 

@@ -24,6 +24,9 @@
                       <div class="card-row">
                       {{ range $index, $card := $cards }}
                         <a class="control-card area-{{ $term }} card-index-{{ $index }}" href="{{ .RelPermalink }}">
+                          {{ with .Params.control_code }} <!-- Control Code -->
+                          <div class="control-code">{{ . }}:</div>
+                          {{ end }}
                           {{ .LinkTitle }}      <!-- Control  (e.g. "Code Review")-->
                         </a>
                       {{ end }}

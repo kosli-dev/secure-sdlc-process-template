@@ -2,6 +2,7 @@
 title: Infrastructure and Configuration Management
 level: 1
 weight: 50
+control_code: KBC5
 tldr: Infrastructure and Configurations are defined "as code" and applied through automation
 rationale: Software defined cloud infrastructure allows auditability, reproducibility and drift detection
 areas: 

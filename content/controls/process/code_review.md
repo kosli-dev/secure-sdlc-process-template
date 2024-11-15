@@ -1,6 +1,7 @@
 ---
 title: Code Review
 weight: 10
+control_code: KVC1
 level: 1
 tldr: Code review is performed on all software changes to production
 rationale: Peer review is an essential mitigation against insider threats, as well as a means of improving knowledge sharing and quality.

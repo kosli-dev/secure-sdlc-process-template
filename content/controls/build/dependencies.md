@@ -1,6 +1,7 @@
 ---
 title: Dependency Management
-weight: 20
+weight: 40
+control_code: KBC4
 areas: 
  - build
 tldr: Every dependency is defined securely, managed, and auditable
