@@ -30,24 +30,24 @@ together with other server information.
 * We use a set of helper programs to update the secrets for the different servers. In addition to updating
 the secrets, the helper program also:
    * Tracks which server the secret was updated for.
-   * When and by who was the secrete updated.
-   * When does the secrete expire.
+   * When and by who was the secret updated.
+   * When does the secret expire.
 * We have a daily [GitHub job](https://github.com/kosli-dev/terraform-server/actions/workflows/secret-expire-check.yml)
-that checks if any secrete will expire within the next month.
-* If a secrete is going to expire soon a message is sent to our dedicated [slack channel](https://kosli-internal.slack.com/archives/C07P4AUQGHH)
+that checks if any secret will expire within the next month.
+* If a secret is going to expire soon a message is sent to our dedicated [slack channel](https://kosli-internal.slack.com/archives/C07P4AUQGHH)
 
 ### CI workflow secrets
 * We use GitHub action secrets to store CI workflow secrets.
-* CI workflow secretes are either **repository secretes** or **organization secretes**.
-* Repository secretes are tracked in the repository where they are used.
-* Organization secretes are tracked in the [server repository](https://github.com/kosli-dev/server).
-* In every repository that uses CI workflow secretes there is a `secrets` directory. It contains a
+* CI workflow secrets are either **repository secrets** or **organization secrets**.
+* Repository secrets are tracked in the repository where they are used.
+* Organization secrets are tracked in the [server repository](https://github.com/kosli-dev/server).
+* In every repository that uses CI workflow secrets there is a `secrets` directory. It contains a
 `README.md` file with general information and one file per secret. The file gives detailed information
 about how to get a new secret and how to update them. It also contains
-   * When and by who was the secrete updated.
-   * When does the secrete expire.
-* In every repository there is a daily GitHub job that checks if any secrete will expire within the next month.
-* If a secrete is going to expire soon a message is sent to our dedicated [slack channel](https://kosli-internal.slack.com/archives/C07P4AUQGHH)
+   * When and by who was the secret updated.
+   * When does the secret expire.
+* In every repository there is a daily GitHub job that checks if any secret will expire within the next month.
+* If a secret is going to expire soon a message is sent to our dedicated [slack channel](https://kosli-internal.slack.com/archives/C07P4AUQGHH)
 
 ### Check if new secrets has been added
 * Every 3 months we check if any new infrastructure or CI secrets has been added. In the 
