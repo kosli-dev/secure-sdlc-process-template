@@ -40,7 +40,7 @@ As an example, the change management stipulation shows up in the following subse
 
 SOC2 CC8 - Common Criteria 8
 
-ISO27001 Annex A.14.2.1 - Secure Development Policy
+ISO27001 Annex A.8.25 - Secure development life cycle
 
 In IEC62304 5.1 - 5.8 - Software Development Process
 
