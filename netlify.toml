@@ -1,0 +1,10 @@
+[build]
+    command = "hugo"
+    publish = "public"
+    environment = { HUGO_VERSION = "0.139.3" }
+
+[context.production]
+    command = "hugo --baseURL https://kosli.com/secure-sdlc-process-template/"
+
+[context.deploy-preview]
+    command = "hugo --baseURL $DEPLOY_PRIME_URL"
