@@ -16,4 +16,4 @@ software process compliance.  Beyond this, it is important to have a monitoring
 process in place to ensure that unknown or incompliant workloads are identified
 in production.
 
-{{< figure src="/images/workload-monitoring.svg" alt="Workload Monitoring" >}}
+{{< figure src="/images/workload-monitoring.png" alt="Workload Monitoring" >}}
