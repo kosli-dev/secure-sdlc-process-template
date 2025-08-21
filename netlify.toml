@@ -1,0 +1,4 @@
+[build]
+  command = "hugo --theme hugo-book"
+  publish = "public"
+  environment = { HUGO_VERSION = "0.128.0" }
