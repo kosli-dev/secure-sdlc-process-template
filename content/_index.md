@@ -4,7 +4,7 @@ title: Introduction
 bookToC: true
 ---
 
-{{< figure src="/images/hero-home.svg" alt="Secure SDLC Process Template">}}
+{{< figure src="/images/hero-home.jpg" alt="Secure SDLC Process Template">}}
 # The Secure SDLC Process Template
 
 
