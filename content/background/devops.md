@@ -27,7 +27,7 @@ Conventional Change Management approaches in regulated industries have been IT-l
 > "External approvals were negatively correlated with lead time, deployment frequency, and restore time, and had no correlation with change fail rate. In short, approval by an external body (such as a manager or CAB) simply doesn't work to increase the stability of production systems, measured by the time to restore service and change fail rate. However, it certainly slows things down. It is, in fact, worse than having no change approval process at all" [^20]
 
 {{< hint info >}}
-To learn more about this, look into the findings from UK's Financial Conduct Authority 👉 [here](https://www.merkely.com/blog/what-the-fca-found-when-analysing-1-million-production-changes/)
+To learn more about this, look into the findings from UK's Financial Conduct Authority 👉 [here](https://www.kosli.com/blog/what-the-fca-found-when-analysing-1-million-production-changes/)
 {{< /hint >}}
 
 ## Building a DevOps Culture around Compliance
