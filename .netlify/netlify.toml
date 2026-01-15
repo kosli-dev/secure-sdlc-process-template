@@ -1,0 +1,27 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/simoncastagna/kosli/repos/secure-sdlc-process-template/public"
+publishOrigin = "ui"
+commandOrigin = "ui"
+command = "hugo --theme hugo-book"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
